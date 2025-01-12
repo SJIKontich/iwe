@@ -30,12 +30,7 @@ def shift_vragen(root_dir, start_index, shift_amount, dry_run=False):
             with open(test_file_path, 'r') as file:
                 content = file.read()
 
-            # Update import statements en testfuncties
-            # content = re.sub(r"from reeks\d+\.vraag\d{2}", f"from {root_dir}.vraag{new_index:02}", content)
-            # content = re.sub(r"def test_vraag\d{2}", f"def test_vraag{new_index:02}", content)
-            # content = re.sub(r"from reeks\d+ import vraag\d{2}", f"from {root_dir} import vraag{new_index:02}", content)
-            # content = re.sub(r"if not hasattr\(vraag\d{2}", f"if not hasattr(vraag{new_index:02}", content)
-            # content = re.sub(r"resultaat = vraag\d{2}\.", f"resultaat = vraag{new_index:02}.", content)
+            # Update vraagnummer in testbestand
             content = re.sub(r"vraag\d{2}", f"vraag{new_index:02}", content)
 
             with open(test_file_path, 'w') as file:
