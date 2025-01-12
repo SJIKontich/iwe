@@ -7,5 +7,3 @@
 # vectoren is gelijk en de functie moet hier niet op controleren.
 
 # Zet hier je code
-def scalairproduct(v1, v2):
-    return sum(v1[i] * v2[i] for i in range(len(v1)))

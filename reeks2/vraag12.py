@@ -15,5 +15,3 @@
 # merk op dat je dus een nieuwe lijst teruggeeft
 
 # Zet hier je code
-def vectorpuntproduct(v1, v2):
-    return [v1[i] * v2[i] for i in range(len(v1))]

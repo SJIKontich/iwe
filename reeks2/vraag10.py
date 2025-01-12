@@ -5,6 +5,3 @@
 # en het gemiddelde van de getallen in de lijst teruggeeft.
 
 # Zet hier je code
-def gemiddelde(l):
-    # pass
-    return sum(l) / len(l)

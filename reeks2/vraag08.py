@@ -5,5 +5,3 @@
 # en de som van de getallen in de lijst teruggeeft.
 
 # Zet hier je code
-def som(l):
-    return sum(l)

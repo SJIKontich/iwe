@@ -2,6 +2,9 @@
 import os
 import pytest
 import inspect
+from io import StringIO
+import sys
+
 
 def check_function_exists(module, function_name):
     if not hasattr(module, function_name):
@@ -42,7 +45,40 @@ def run_student_code_and_compare(vraag_nummer):
     test_dir = os.path.dirname(test_file_path)
     base_dir = os.path.dirname(test_dir)
     vraag_file = os.path.join(base_dir, f"vraag{vraag_nummer:02}.py")
-    print(f"Debug: Constructed path to vraag file: {vraag_file}")  # Debug print statement
     if not os.path.exists(vraag_file):
         pytest.fail(f"Het bestand '{vraag_file}' bestaat niet.")
     # Voeg hier de logica toe om de studentcode uit te voeren en te vergelijken
+
+    # Capture the student's output
+    output_capture = StringIO()
+    sys.stdout = output_capture
+
+    # Execute the entire student's code
+    task_number = vraag_nummer
+    if task_number < 10:
+        task_number = f"0{task_number}"
+    student_file_path = vraag_file
+    with open(student_file_path, "r") as student_code:
+        code = student_code.read()
+        exec(code, globals())
+
+    sys.stdout = sys.__stdout__
+
+    # Verwachte output uit het .out-bestand lezen
+    output_file_path = os.path.join(base_dir, f"testen/vraag{task_number}.out")
+    with open(output_file_path, "r") as output_file:
+        expected_output = output_file.read().strip()
+
+    # Prepare outputs for comparison
+    generated_output = output_capture.getvalue().strip()
+
+    # Assert with detailed output on failure
+    if generated_output != expected_output:
+        print("\n\n------- Verwacht -------\n\n" + expected_output)
+        print("\n------- Gekregen -------\n\n" + generated_output)
+        print("\n------- Verschil -------:\n")
+        for expected, actual in zip(expected_output.splitlines(), generated_output.splitlines()):
+            print(f"Verwacht: {expected}")
+            print(f"Gekregen:   {actual}")
+            print()
+        assert False, "De output komt niet overeen, zie hierboven voor details."

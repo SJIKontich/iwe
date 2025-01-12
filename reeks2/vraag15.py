@@ -29,9 +29,3 @@ def f(x):
     return x**2
 
 # Zet hier je code
-def integraal(f, a, b, n):
-    dx = (b - a) / n
-    resultaat = 0
-    for i in range(n):
-        resultaat += f(a + i * dx)  * dx
-    return resultaat
