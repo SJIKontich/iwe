@@ -8,6 +8,9 @@
 # print(3)
 # print(4)
 # print(5)
-# print(”Goodbye!”)
+# print("Goodbye!")
 
 # Zet hier je code
+for i in range(1, 6):
+    print(i)
+print("Goodbye!")

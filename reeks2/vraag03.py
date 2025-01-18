@@ -9,6 +9,6 @@
 # print(6)
 # print(8)
 # print(10)
-# print(”Goodbye!”)
+# print("Goodbye!")
 
 # Zet hier je code
