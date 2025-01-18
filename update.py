@@ -5,7 +5,7 @@ import sys
 # Check if the current branch is 'mijn-oplossingen'
 current_branch = os.popen("git branch --show-current").read().strip()
 if current_branch != "mijn-oplossingen":
-    print("Error: You are not on the 'mijn-oplossingen' branch.")
+    print("Error: Je hebt de setup niet uitgevoerd.")
     sys.exit(1)
 
 # Commands to update the student's branch with the latest changes from the main branch
