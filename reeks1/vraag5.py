@@ -1,4 +1,4 @@
-# Tel het aantal stappen om het doorhof op te lossen
+# Tel het aantal stappen om het doolhof op te lossen
 # Voeg nu toe om alle linkse en rechtse bochten te tellen
 
 from doolhof import *

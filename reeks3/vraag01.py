@@ -1,6 +1,7 @@
 
-# Matrices optellen
+# Nulvector maken
 
-# Schrijf een programma som dat twee matrices inleest en de som van de twee matrices afdrukt.
+# Schrijf een functie nulvector om een nulvector te maken. De functie heeft een parameter n
+# en geeft een vector terug met n elementen die allemaal 0 zijn.
 
 # Zet hier je code
