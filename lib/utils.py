@@ -7,6 +7,8 @@ import sys
 import json
 import requests
 from pathlib import Path
+import getpass
+
 
 # Constants for Google Forms submission
 # GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfVwBwDdUL8oKIvBp7tw9cVz86qC8dfxpXm-nWtmrbqGPqxDQ/viewform?usp=pp_url&entry.842475428=Tom&entry.2108741726=1&entry.816748641=2"
@@ -19,6 +21,8 @@ if os.path.exists(LOG_FILE):
     with open(LOG_FILE, "r") as log_file:
         submitted_tests = json.load(log_file)
 
+def get_name_of_user():
+    return getpass.getuser()
 
 def save_submission_log():
     """Save the updated submission log to the log file."""
@@ -77,7 +81,7 @@ def check_exact_match(module, function_name, args, expected_result):
         reset = "\033[0m"
         print()
         print()
-        print(f"{red}E        De functie '{function_name}' geeft niet het verwachte resultaat.{reset}")
+        print(f"{red}E        De functie '{function_name}{args}' geeft niet het verwachte resultaat.{reset}")
         print(f"{red}E        Verwacht: {expected_result}{reset}")
         print(f"{red}E        Gekregen: {result}{reset}")
         assert False
@@ -86,7 +90,25 @@ def check_exact_match(module, function_name, args, expected_result):
     caller_frame = inspect.stack()[1]
     test_file_path = caller_frame.filename
     reeks, vraag_nummer = extract_reeks_and_vraag(test_file_path)
-    student_id = os.getlogin()  # Huidige aangemelde gebruiker als ID
+    student_id = get_name_of_user()
+
+    submit_google_form(reeks, vraag_nummer, student_id)
+
+def check_assertion(module, function_name, assertion_condition, error_message):
+    check_function_exists(module, function_name)
+    if not assertion_condition:
+        red = "\033[91m"
+        reset = "\033[0m"
+        print()
+        print()
+        print(f"{red}E        {error_message}{reset}")
+        assert False
+
+    # Als de test slaagt, log de voortgang
+    caller_frame = inspect.stack()[1]
+    test_file_path = caller_frame.filename
+    reeks, vraag_nummer = extract_reeks_and_vraag(test_file_path)
+    student_id = get_name_of_user()
     submit_google_form(reeks, vraag_nummer, student_id)
 
 def check_approx_match(module, function_name, args, expected_result, tolerance=1e-6):
@@ -107,7 +129,7 @@ def check_approx_match(module, function_name, args, expected_result, tolerance=1
     caller_frame = inspect.stack()[1]
     test_file_path = caller_frame.filename
     reeks, vraag_nummer = extract_reeks_and_vraag(test_file_path)
-    student_id = os.getlogin()  # Huidige aangemelde gebruiker als ID
+    student_id = get_name_of_user()
     submit_google_form(reeks, vraag_nummer, student_id)
 
 def run_student_code_and_compare():
@@ -159,6 +181,6 @@ def run_student_code_and_compare():
         assert False, "De output komt niet overeen, zie hierboven voor details."
 
     # Als de test slaagt, log de voortgang
-    student_id = os.getlogin()  # Huidige aangemelde gebruiker als ID
+    student_id = get_name_of_user()
     submit_google_form(reeks, vraag_nummer, student_id)
 
