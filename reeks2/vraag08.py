@@ -8,8 +8,8 @@
 # maar gebruik deze keer de index van elk getal.
 
 # Voorbeeld:
-# for i in range(len(values)):
-#     print(i, values[i])
+# for i in range(len(lijst)):
+#     print(i, lijst[i])
 
 # dit toont telkens de index (de positie in de lijst, beginnend bij 0) en de waarde van de lijst op die index.
 
