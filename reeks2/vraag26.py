@@ -1,6 +1,9 @@
 
 # 2048 in 1D
 
+# DEZE VRAAG WERD AL VOOR JOU GEMAAKT, JE MOET HIER NIETS DOEN als je de vorige vragen hebt opgelost.
+# Voer dit bestand uit om te spelen ;-)
+
 # g. Schrijf een functie speel die een lijst initialiseert en dan telkens aan de gebruiker vraagt wat er moet gebeuren.
 # De gebruiker kan een van de volgende acties kiezen: 'l' (naar links), 'r' (naar rechts), 'q' (stoppen).
 # - Als de gebruiker 'l' kiest, wordt de functie naar_links uitgevoerd.
