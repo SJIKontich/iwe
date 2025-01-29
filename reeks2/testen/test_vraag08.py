@@ -1,5 +1,4 @@
-from reeks2 import vraag08
-from lib.utils import check_exact_match
+from lib.utils import run_student_code_and_compare
 
 def test_vraag08():
-    check_exact_match(vraag08, "som", ([1, 2, 6],), 9)
+    run_student_code_and_compare()

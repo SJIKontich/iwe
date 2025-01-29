@@ -1,11 +1,17 @@
 
-# 2048 in 1D
-# We gaan een variant van het spel 2048 implementeren. In deze variant is het speelveld
-# een lijst van n elementen. De elementen van de lijst zijn getallen. De bedoeling is om
-# de getallen in de lijst samen te voegen zodat er geen opeenvolgende getallen meer zijn.
-# We gaan de volgende functies implementeren:
+# Vectoren (b)
 
-# a. Schrijf een functie initialiseer die een argument n heeft en een lijst teruggeeft
-# met n elementen die allemaal 0 zijn.
+# (b) Schrijf een functie vectorpuntproduct die het puntproduct van twee vectoren
+# berekent. De vectoren worden voorgesteld als lijsten van getallen. De functie
+# geeft het puntproduct van de twee vectoren terug. De lengte van de twee
+# vectoren is gelijk en de functie moet hier niet op controleren.
+# Het puntproduct van twee vectoren is een vector waarvan elk element het product
+# is van de overeenkomstige elementen van de twee vectoren.
+#
+# Voorbeeld:
+#
+# vectorpuntproduct([1, 2, 3], [4, 5, 6]) -> [4, 10, 18]
+#
+# merk op dat je dus een nieuwe lijst teruggeeft
 
 # Zet hier je code

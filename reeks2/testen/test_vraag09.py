@@ -1,5 +1,4 @@
-from reeks2 import vraag09
-from lib.utils import check_exact_match
+from lib.utils import run_student_code_and_compare
 
 def test_vraag09():
-    check_exact_match(vraag09, "product", ([1, 2, 6],), 12)
+    run_student_code_and_compare()

@@ -1,17 +1,15 @@
 
-# Vectoren (b)
+# Som
 
-# (b) Schrijf een functie vectorpuntproduct die het puntproduct van twee vectoren
-# berekent. De vectoren worden voorgesteld als lijsten van getallen. De functie
-# geeft het puntproduct van de twee vectoren terug. De lengte van de twee
-# vectoren is gelijk en de functie moet hier niet op controleren.
-# Het puntproduct van twee vectoren is een vector waarvan elk element het product
-# is van de overeenkomstige elementen van de twee vectoren.
+# Schrijf een functie som die een lijst van getallen als parameter heeft
+# en de som van de getallen in de lijst teruggeeft.
 #
-# Voorbeeld:
-#
-# vectorpuntproduct([1, 2, 3], [4, 5, 6]) -> [4, 10, 18]
-#
-# merk op dat je dus een nieuwe lijst teruggeeft
+# Bij het schrijven van een functie is het een goed idee om te werken volgens een vaste methode:
+# 1. Schrijf de naam van de functie.
+# 2. Schrijf de parameters van de functie en gebruik betekenisvolle namen.
+# 3. Maak een variabele waar het resultaat in wordt opgeslagen. Kies opnieuw een betekenisvolle naam.
+# 4. Geeft deze variabele een logische beginwaarde (0, een lege lijst, 1, ...).
+# 5. Voeg een return toe van die variabele.
+# 6. Begin nu pas met de code van de functie.
 
 # Zet hier je code

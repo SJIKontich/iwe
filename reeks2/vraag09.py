@@ -1,7 +1,12 @@
 
-# Product
+# Loops en lists (b)
 
-# Schrijf een functie product die een lijst van getallen als parameter heeft
-# en het product van de getallen in de lijst teruggeeft.
+# Stel dat je een variabele ``values`` hebt met de volgende waarden:
+# values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+# (b) Schrijf een loop om het kwadraat van
+# elk getal op een nieuwe lijn af te drukken op het scherm,
+# maar gebruik deze keer de index van elk getal.
+
+values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 
 # Zet hier je code

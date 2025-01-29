@@ -184,3 +184,30 @@ def run_student_code_and_compare():
     student_id = get_name_of_user()
     submit_google_form(reeks, vraag_nummer, student_id)
 
+def check_if_code_contains(snippet, snippetmessage):
+    # Get the file path of the calling test file
+    caller_frame = inspect.stack()[1]
+    test_file_path = caller_frame.filename
+
+    # Determine reeks and vraag_nummer from the file path
+    reeks, vraag_nummer = extract_reeks_and_vraag(test_file_path)
+
+    test_dir = os.path.dirname(test_file_path)
+    base_dir = os.path.dirname(test_dir)
+    vraag_file = os.path.join(base_dir, f"vraag{vraag_nummer:02}.py")
+    if not os.path.exists(vraag_file):
+        pytest.fail(f"Het bestand '{vraag_file}' bestaat niet.")
+
+    # haal de source code van de student op, maar zonder commentaar uit het bestand vraag_file en steek het resultaat in de variabele source
+    with open(vraag_file, "r") as student_code:
+        source = student_code.read()
+        source = "\n".join([line for line in source.splitlines() if not line.strip().startswith("#")])
+
+    if snippet not in source:
+        red = "\033[91m"
+        reset = "\033[0m"
+        print()
+        print()
+        print(f"{red}E        De code bevat geen {snippetmessage}.{reset}")
+        assert False
+

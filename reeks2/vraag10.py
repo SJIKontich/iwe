@@ -1,7 +1,12 @@
 
-# Gemiddelde
+# Loops en lists (c)
 
-# Schrijf een functie gemiddelde die een lijst van getallen als parameter heeft
-# en het gemiddelde van de getallen in de lijst teruggeeft.
+# Stel dat je een variabele ``values`` hebt met de volgende waarden:
+# values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+# (c) Schrijf een loop die alle getallen
+# van ``values`` optelt en de som op het scherm toont,
+# maar gebruik deze keer de index van elk getal.
+
+values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 
 # Zet hier je code
