@@ -9,7 +9,7 @@
 
 from reeks2.vraag24 import naar_rechts1
 
-# Zet hier je code: evt gewoon geven
+# Zet hier je code
 def naar_rechts(lijst):
     n = len(lijst)
     gewijzigd = True

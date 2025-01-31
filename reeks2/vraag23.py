@@ -9,7 +9,7 @@
 
 from reeks2.vraag22 import naar_links1
 
-# Zet hier je code: evt gewoon geven
+# Zet hier je code
 def naar_links(lijst):
     n = len(lijst)
     gewijzigd = True
