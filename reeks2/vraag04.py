@@ -6,6 +6,17 @@
 # (a) Schrijf een loop om elk getal op een
 # nieuwe lijn af te drukken op het scherm.
 
+# Loopen over een lijst kan je doen met een for-lus.
+
+# Voorbeeld:
+
+# for element in lijst:
+#     print(element)
+
+# Hierbij zal de variabele element achtereenvolgens de waarde van elk element in de lijst aannemen.
+
 values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 
 # Zet hier je code
+for element in values:
+    print(element)
