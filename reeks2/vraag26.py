@@ -37,3 +37,10 @@ def speel(n):
 
 # voer dit bestand uit om te spelen
 speel(10)
+
+# OPDRACHT:
+# 1. maak een bestand 2028.py aan en kopieer de code van alle vorige vragen in dit bestand
+# 2. voer dit bestand uit om te spelen om te controleren dat het nog steeds werkt
+# 3. meld je aan op chatgpt.com en probeer een gui te schrijven met tkinter om het spel te spelen met jouw eigen code
+# 4. voer de code uit en speel het spel even om te controleren dat het werkt
+# 5. zorg dat het spel er zoveel mogelijk uitziet als het originele spel 2048 (incl de gekleurde vakjes) en zorg dat het werkt met de pijltjestoetsen
