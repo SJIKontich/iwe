@@ -12,4 +12,6 @@
 
 import random
 
-# Zet hier je code
+def voeg_2_toe(lijst):
+    # Zet hier je code, je mag de pass hieronder verwijderen, die staat er zodat de testen kunnen werken
+    pass
