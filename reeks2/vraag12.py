@@ -13,3 +13,8 @@
 # 6. Begin nu pas met de code van de functie.
 
 # Zet hier je code
+def som(getallen):
+    result = 0
+    for getal in getallen:
+        result += getal
+    return result

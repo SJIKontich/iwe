@@ -14,4 +14,8 @@ import random
 
 def voeg_2_toe(lijst):
     # Zet hier je code, je mag de pass hieronder verwijderen, die staat er zodat de testen kunnen werken
-    pass
+    index = random.randint(0, len(lijst) - 1)
+    while lijst[index] != 0:
+        index = random.randint(0, len(lijst) - 1)
+    lijst[index] = 2
+    return lijst

@@ -9,3 +9,5 @@
 # met n elementen die allemaal 0 zijn.
 
 # Zet hier je code
+def initialiseer(n):
+    return [0] * n

@@ -15,3 +15,8 @@
 # merk op dat je dus een nieuwe lijst teruggeeft
 
 # Zet hier je code
+def vectorpuntproduct(v1, v2):
+    result = []
+    for i in range(len(v1)):
+        result.append(v1[i] * v2[i])
+    return result

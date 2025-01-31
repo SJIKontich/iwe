@@ -20,3 +20,8 @@
 # Zet hier je code
 from math import sqrt
 
+def afstand(v1, v2):
+    d = 0
+    for i in range(len(v1)):
+        d += (v1[i] - v2[i])**2
+    return sqrt(d)
