@@ -1,4 +1,12 @@
-from lib.utils import run_student_code_and_compare,check_if_code_contains
+import pytest
+
+from lib.utils import *
+
+try:
+    from reeks2 import vraag02
+except (SyntaxError, IndentationError) as e:
+    pytest.exit("Er staat een fout in de code")
+
 
 def test_vraag02():
     check_if_code_contains("for ","for loop")

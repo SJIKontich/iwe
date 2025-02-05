@@ -1,6 +1,12 @@
-from reeks2 import vraag21
-from lib.utils import check_assertion
-from reeks2.vraag21 import voeg_2_toe
+import pytest
+
+from lib.utils import *
+
+try:
+    from reeks2 import vraag21
+    from reeks2.vraag21 import voeg_2_toe
+except (SyntaxError, IndentationError) as e:
+    pytest.exit("Er staat een fout in de code")
 
 
 def test_vraag21():

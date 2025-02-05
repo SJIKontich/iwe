@@ -1,5 +1,11 @@
-from reeks2 import vraag20
-from lib.utils import check_exact_match, check_approx_match
+import pytest
+
+from lib.utils import *
+
+try:
+    from reeks2 import vraag20
+except (SyntaxError, IndentationError) as e:
+    pytest.exit("Er staat een fout in de code")
 
 
 def test_vraag20():
