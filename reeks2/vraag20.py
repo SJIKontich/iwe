@@ -12,5 +12,5 @@
 def initialiseer(n):
     lijst = []
     for i in range(n):
-        lijst.append(0)
+        lijst.append(...)
     return lijst
