@@ -8,5 +8,5 @@
 def som(getallen):
     som = 0
     for getal in getallen:
-        som += getal
+        som = som + getal
     return som
