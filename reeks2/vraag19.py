@@ -10,10 +10,10 @@ def f(x):
 
 # Zet hier je code
 def integraal(f, a, b, n):
-    dx = (b - a) / n
+    dx = ...
     som = 0
     x = a
     for i in range(n):
-        som = som + f(x)
-        x = x + dx
+        som = som + ...
+        x = x + ...
     return som * dx
