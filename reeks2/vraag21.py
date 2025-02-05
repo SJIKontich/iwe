@@ -22,4 +22,5 @@ def voeg_2_toe(lijst):
 
     # zet een 2 op die index
     lijst[random_index] = ...
+
     return lijst
