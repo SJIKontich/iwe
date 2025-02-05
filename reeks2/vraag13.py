@@ -9,5 +9,5 @@
 def product(getallen):
     product = 1
     for getal in getallen:
-        product = product * getal
+        product = ... * ...
     return product
