@@ -21,18 +21,19 @@ def schaar_steen_papier_helper(jij, tegenspeler):
     # de variabele jij en tegenspeler is een van "schaar", "steen" of "papier"
 
     # Zet hier je code
-    if (jij == "schaar" and tegenspeler == "papier") or (jij == "steen" and tegenspeler == "schaar") or (jij == "papier" and tegenspeler == "steen"):
-        print("Jij wint")
+    # Als jij wint, geef de keuze van de tegenspeler terug
+    if jij == "schaar" and tegenspeler == "papier":
         return tegenspeler
-    else:
-        nietgespeeld = ""
-        if jij != "schaar" and tegenspeler != "schaar":
-            nietgespeeld = "schaar"
-        elif jij != "steen" and tegenspeler != "steen":
-            nietgespeeld = "steen"
-        else:
-            nietgespeeld = "papier"
-        print("Jij verliest")
-        return nietgespeeld
+    if jij == "steen" and tegenspeler == "schaar":
+        return tegenspeler
+    if jij == "papier" and tegenspeler == "steen":
+        return tegenspeler
+
+    # Als jij verliest, geef de keuze terug die niet gespeeld werd
+    if jij != "schaar" and tegenspeler != "schaar":
+        return "schaar"
+    if jij != "steen" and tegenspeler != "steen":
+        return "steen"
+    return "papier"
 
 
