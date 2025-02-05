@@ -18,16 +18,31 @@
 #   dit bestand uit.
 
 
+# regels:
+# als je wint, speel dan wat de andere speelde
+# als je verliest, speel dan wat er niet gespeeld werd
+
+
 def schaar_steen_papier_helper(jij, tegenspeler):
     # de variabele jij bevat nu de keuze van de speler: schaar, steen of papier
     # de variabele tegenspeler bevat nu de keuze van de tegenspeler: schaar, steen of papier
 
     # als het gelijk spel is, moet je niets ingeven
 
-    # Zet hier je code (Verwijder de pass)
-    # zet hier ook de twee regels die je strategie beschrijven in commentaar
-    pass
-
+    # Zet hier je code
+    if (jij == "schaar" and tegenspeler == "papier") or (jij == "steen" and tegenspeler == "schaar") or (jij == "papier" and tegenspeler == "steen"):
+        print("Jij wint")
+        return tegenspeler
+    else:
+        nietgespeeld = ""
+        if jij != "schaar" and tegenspeler != "schaar":
+            nietgespeeld = "schaar"
+        elif jij != "steen" and tegenspeler != "steen":
+            nietgespeeld = "steen"
+        else:
+            nietgespeeld = "papier"
+        print("Jij verliest")
+        return nietgespeeld
 
 def schaar_steen_papier_helper_ui():
     while True:
