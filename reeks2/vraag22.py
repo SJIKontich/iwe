@@ -28,7 +28,7 @@ def naar_links1(l, i):
     if lijst[i] == 0:
         return lijst
     if lijst[i] == lijst[i - 1]:
-        lijst[i - 1] = lijst[i] * 2
+        lijst[i - 1] = lijst[i] + lijst[i - 1]
         lijst[i] = 0
         return lijst
     if lijst[i - 1] == 0:
