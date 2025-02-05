@@ -10,4 +10,7 @@
 
 # Zet hier je code
 def initialiseer(n):
-    return [0] * n
+    lijst = []
+    for i in range(n):
+        lijst.append(0)
+    return lijst
