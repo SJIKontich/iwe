@@ -222,6 +222,14 @@ def goede_functie_naam(goede_argument1_naam, goede_argument2_naam, ...):
 
 Op die manier vermijd je een hoop bugs (return vergeten, resultaat niet gedefinieerd, ...).
 
+Bij het schrijven van een functie is het dus een goed idee om te werken volgens een vaste methode:
+1. Schrijf de naam van de functie.
+2. Schrijf de parameters van de functie en gebruik betekenisvolle namen.
+3. Maak een variabele waar het resultaat in wordt opgeslagen. Kies opnieuw een betekenisvolle naam.
+4. Geeft deze variabele een logische beginwaarde (0, een lege lijst, 1, ...).
+5. Voeg een return toe van die variabele.
+6. Begin nu pas met de code van de functie.
+
 ## Ingebouwde functies
 
 Er bestaan een aantal ingebouwde functies die je kan gebruiken voor lijsten. 

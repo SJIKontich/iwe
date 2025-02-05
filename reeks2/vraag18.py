@@ -1,10 +1,12 @@
 
 # Vectoren (d)
 
-# (d) Schrijf een functie scalairproduct die het scalair product van twee vectoren
-# berekent. De vectoren worden voorgesteld als lijsten van getallen. De functie
-# geeft het scalair product van de twee vectoren terug. De lengte van de twee
-# vectoren is gelijk en de functie moet hier niet op controleren.
+# (d) Schrijf een functie ''scalairproduct'' die het scalair product van twee vectoren berekent.
+
+# Voorbeeld:
+
+# >>> scalairproduct([1, 2, 3], [4, 5, 6])
+# 1*4 + 2*5 + 3*6
 
 # Formule:
 # v1[0]*v2[0] + v1[1]*v2[1] + ... + v1[n]*v2[n]

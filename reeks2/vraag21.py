@@ -8,14 +8,14 @@
 
 # Voorbeeld van randint:
 
-# getal = random.randint(0, 10) # geeft een willekeurig getal tussen 0 en 10 (incl.)
+# getal = randint(0, 10) # geeft een willekeurig getal tussen 0 en 10 (incl.)
 
-import random
+from random import randint
 
 def voeg_2_toe(lijst):
-    # Zet hier je code, je mag de pass hieronder verwijderen, die staat er zodat de testen kunnen werken
-    random_index = random.randint(0, len(lijst) - 1)
+    # Zet hier je code, je mag de pass hieronder verwijderen
+    random_index = randint(0, len(lijst) - 1)
     while lijst[random_index] != 0:
-        random_index = random.randint(0, len(lijst) - 1)
+        random_index = randint(0, len(lijst) - 1)
     lijst[random_index] = 2
     return lijst
