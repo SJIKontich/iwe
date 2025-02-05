@@ -29,3 +29,11 @@ def f(x):
     return x**2
 
 # Zet hier je code
+def integraal(f, a, b, n):
+    dx = (b - a) / n
+    som = 0
+    x = a
+    for i in range(n):
+        som += f(x)
+        x += dx
+    return som * dx
