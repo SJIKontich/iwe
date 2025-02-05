@@ -1,3 +1,4 @@
+from itertools import product
 
 # Loops en lists (d)
 
@@ -12,5 +13,5 @@ values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 # Zet hier je code
 product = 1
 for value in values:
-    product *= value
+    product = product * value
 print(product)
