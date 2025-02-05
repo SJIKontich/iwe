@@ -14,6 +14,6 @@ def integraal(f, a, b, n):
     som = 0
     x = a
     for i in range(n):
-        som += f(x)
-        x += dx
+        som = som + f(x)
+        x = x + dx
     return som * dx

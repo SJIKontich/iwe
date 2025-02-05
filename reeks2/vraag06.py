@@ -12,5 +12,5 @@ values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 # Zet hier je code
 som = 0
 for value in values:
-    som += value
+    som = som + value
 print(som)

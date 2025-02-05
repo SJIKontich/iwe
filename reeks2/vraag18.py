@@ -13,7 +13,7 @@
 
 # Zet hier je code
 def scalairproduct(v1, v2):
-    product = 0
+    som = 0
     for i in range(len(v1)):
-        product += v1[i] * v2[i]
-    return product
+        som = som + v1[i] * v2[i]
+    return som
