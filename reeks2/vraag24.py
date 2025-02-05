@@ -27,7 +27,7 @@ def naar_rechts1(l, i):
     if lijst[i] == 0:
         return lijst
     if lijst[i] == lijst[i + 1]:
-        lijst[i + 1] *= 2
+        lijst[i + 1] = lijst[i + 1] + lijst[i]
         lijst[i] = 0
         return lijst
     elif lijst[i + 1] == 0:
