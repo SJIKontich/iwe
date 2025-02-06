@@ -7,6 +7,6 @@
 # Zet hier je code
 def gemiddelde(getallen):
     som = 0
-    for getal in getallen:
-        som = ... + ...
-    return som / len(...)
+    for getal in ...:
+        ...
+    return som / ...
