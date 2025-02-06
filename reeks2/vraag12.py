@@ -7,6 +7,6 @@
 # Zet hier je code
 def som(getallen):
     som = 0
-    for getal in getallen:
-        som = ... + ...
+    for getal in ...:
+        ...
     return som
