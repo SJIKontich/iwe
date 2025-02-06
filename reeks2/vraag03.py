@@ -12,6 +12,6 @@
 # print("Goodbye!")
 
 # Zet hier je code
-for i in range(..., ..., ...):
-    print(i)
+for i in ...:
+    ...
 print("Goodbye!")
