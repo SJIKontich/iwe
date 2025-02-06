@@ -12,6 +12,5 @@
 # print("Goodbye!")
 
 # Zet hier je code
-for i in ...:
-    ...
+...
 print("Goodbye!")
