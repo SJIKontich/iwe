@@ -9,18 +9,16 @@ Vanaf hier hebben de oefeningen een hintniveau:
 - niveau 3: de oplossing staat er op een paar details na volledig in code (branch niveau3)
 - niveau 4: de oplossing staat er volledig in code (branch oplossing)
 
-# reeks3: debugging
+# reeks3: debugging en testen
 
-# reeks4 testen
-
-# reeks5 IO
+# reeks4: recursie
+ 
+- faculteit: 2 varianten en vergelijken
+- fibonacci: 2 varianten en vergelijken
 
 --> toets
 
-# reeks5: recursie
-
-- faculteit: 2 varianten en vergelijken
-- fibonacci: 2 varianten en vergelijken
+# reeks5: IO
 
 # reeks6: datastructuren
 

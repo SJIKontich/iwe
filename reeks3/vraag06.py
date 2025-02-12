@@ -1,23 +1,17 @@
+# Zoek de fout in de volgende code:
 
-# Matrices optellen
+def som_even_indexen(lijst):
+    som = 0
+    # begin bij laatste element
+    i = len(lijst) - 1
+    while i != 0:
+        som = som + lijst[i]
+        i = i - 2
+    return som
 
-# Schrijf een functie som(m1,m2) die de som van de twee matrices teruggeeft.
-# Maak gebruik van de functie nulmatrix, aantalrijen en aantalkolommen.
+# De functie loopt over alle elementen van een lijst van achter naar voor, maar slaat er telkens een over.
+# De functie geeft de som van die elementen terug.
 
-# Voorbeeld:
+# 1. Schrijf een test die deze verwachting verifieert. Je zal merken dat de test faalt.
 
-# >>> som([[1, 2], [3, 4]], [[5, 6], [7, 8]])
-# [[6, 8], [10, 12]]
-
-from reeks8.vraag02 import nulmatrix
-from reeks8.vraag04 import aantalrijen
-from reeks8.vraag05 import aantalkolommen
-
-# Zet hier je code
-def som(m1, m2):
-    m = nulmatrix(aantalrijen(m1), aantalkolommen(m1))
-    for i in range(aantalrijen(m1)):
-        for j in range(aantalkolommen(m1)):
-            m[i][j] = m1[i][j] + m2[i][j]
-
-    return m
+# 2. Gebruik de debugger om de fout te vinden en de test te laten slagen.

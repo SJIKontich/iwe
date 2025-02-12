@@ -1,11 +1,13 @@
+# Zoek de fout in de volgende code:
 
-# Matrices: aantal kolommen
+def som_van_reeks(n):
+    totaal = 0
+    for i in range(n):
+        totaal = totaal + i
+    return totaal
 
-# Schrijf een functie aantalkolommen(matrix) die het aantal kolommen van matrix teruggeeft.
+# De functie zou de som van alle getallen van 1 tot en met n moeten teruggeven.
 
-# Voorbeeld:
+# 1. Schrijf een test die deze verwachting verifieert. Je zal merken dat de test faalt.
 
-# >>> aantalkolommen([[1, 2, 3], [4, 5, 6]])
-# 3
-
-# Zet hier je code
+# 2. Gebruik de debugger om de fout te vinden en de test te laten slagen.
