@@ -4,6 +4,4 @@
 # Schrijf een functie ''som'' die een lijst van getallen als parameter heeft
 # en de som van de getallen in de lijst teruggeeft.
 
-def som(getallen):
-    # Zet hier je code, de pass mag je verwijderen
-    pass
+# Zet hier je code

@@ -19,4 +19,3 @@ def schaar_steen_papier_helper(jij, tegenspeler):
     pass
 
 
-

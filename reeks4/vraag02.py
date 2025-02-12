@@ -8,11 +8,4 @@
 # - 1 rij en 3 kolommen
 # - 2 rijen en 3 kolommen
 
-from reeks3.vraag01 import nulvector
-
 # Zet hier je code
-def nulmatrix(aantalrijen, aantalkolommen):
-    matrix = []
-    for i in range(aantalrijen):
-        matrix.append(nulvector(aantalkolommen))
-    return matrix
