@@ -3,10 +3,10 @@ import pytest
 from lib.utils import *
 
 try:
-    from reeks3 import vraag06
+    from reeks3 import vraag07
 except (SyntaxError, IndentationError) as e:
     pytest.exit("Er staat een fout in de code")
 
 
-def test_vraag06():
-    check_exact_match(vraag06, "som", ([[1,2,3],[0,1,0]],[[4,2,0],[1,4,-1]]), [[5,4,3],[1,5,-1]])
+def test_vraag07():
+    check_exact_match(vraag07, "product", ([[1,2],[3,4]], [[5,6],[7,8]]), [[19,22],[43,50]])
