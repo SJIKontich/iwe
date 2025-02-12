@@ -24,10 +24,13 @@ def haal_hint_op(reeks, vraag, niveau):
         sys.exit(1)
 
 
-def maak_backup(bestand_pad):
-    """Maakt een backup van het bestand, indien het al bestaat."""
+def maak_backup(bestand_pad, reeks, vraag, niveau):
+    """Maakt een unieke backup van het bestand in een aparte map binnen de reeks."""
+    backup_map = f"reeks{reeks}/backups"
+    os.makedirs(backup_map, exist_ok=True)
+    backup_pad = os.path.join(backup_map, f"vraag{vraag:02d}_niveau{niveau}.py")
+
     if os.path.exists(bestand_pad):
-        backup_pad = bestand_pad + ".bak"
         os.rename(bestand_pad, backup_pad)
         print(f"Een backup van het originele bestand is gemaakt: {backup_pad}")
 
@@ -35,7 +38,7 @@ def maak_backup(bestand_pad):
 def pas_hint_toe(reeks, vraag, niveau):
     bestand_pad = f"reeks{reeks}/vraag{vraag:02d}.py"
     hint_inhoud = haal_hint_op(reeks, vraag, niveau)
-    maak_backup(bestand_pad)
+    maak_backup(bestand_pad, reeks, vraag, niveau)
     with open(bestand_pad, "w") as f:
         f.write(hint_inhoud)
     print(f"De hint van niveau '{niveau}' is toegepast op {bestand_pad}.")
