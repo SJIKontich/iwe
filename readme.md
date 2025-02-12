@@ -1,5 +1,5 @@
 # reeks1: doolhof (if, while, variabelen)
-# reeks2: for en functies --> samenhouden want zelfde code 2 keer is ok
+# reeks2: for en functies --> samenhouden want zelfde code 2 keer is ok, maar opsplitsen in makkelijk en moeilijk bv (reeks3 wordt dan de moeilijkere)
 
 Vanaf hier hebben de oefeningen een hintniveau:
 

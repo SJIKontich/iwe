@@ -8,6 +8,6 @@
 # - 1 rij en 3 kolommen
 # - 2 rijen en 3 kolommen
 
-from reeks3.vraag01 import nulvector
+from reeks8.vraag01 import nulvector
 
 # Zet hier je code
