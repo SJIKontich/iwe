@@ -25,10 +25,10 @@ def naar_links1(l, i):
     # Zet hier je code
     if i == ...:
         ...
-    if lijst[...] == ...:
+    if ... == ...:
         ...
-    if lijst[...] == lijst[...]:
+    if ... == ...:
         ...
-    if lijst[...] == 0:
+    if ... == ...:
         ...
     return lijst
