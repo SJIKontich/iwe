@@ -18,11 +18,3 @@ from reeks3.vraag05 import aantalkolommen
 
 
 # Zet hier je code
-def product(m1, m2):
-    m = nulmatrix(aantalrijen(m1), aantalkolommen(m2))
-    for i in range(aantalrijen(m1)):
-        for j in range(aantalkolommen(m2)):
-            for k in range(aantalkolommen(m1)):
-                m[i][j] += m1[i][k] * m2[k][j]
-
-    return m

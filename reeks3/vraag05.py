@@ -9,5 +9,3 @@
 # 3
 
 # Zet hier je code
-def aantalkolommen(matrix):
-    return len(matrix[0])

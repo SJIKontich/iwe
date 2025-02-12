@@ -13,8 +13,3 @@ from reeks3.vraag02 import nulmatrix
 
 
 # Zet hier je code
-def eenheidsmatrix(n):
-    matrix = nulmatrix(n, n)
-    for i in range(n):
-        matrix[i][i] = 1
-    return matrix

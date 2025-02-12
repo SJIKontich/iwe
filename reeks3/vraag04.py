@@ -9,5 +9,3 @@
 # 2
 
 # Zet hier je code
-def aantalrijen(matrix):
-    return len(matrix)

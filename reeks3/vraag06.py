@@ -14,10 +14,3 @@ from reeks3.vraag04 import aantalrijen
 from reeks3.vraag05 import aantalkolommen
 
 # Zet hier je code
-def som(m1, m2):
-    m = nulmatrix(aantalrijen(m1), aantalkolommen(m1))
-    for i in range(aantalrijen(m1)):
-        for j in range(aantalkolommen(m1)):
-            m[i][j] = m1[i][j] + m2[i][j]
-
-    return m
