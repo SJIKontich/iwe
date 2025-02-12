@@ -1,0 +1,31 @@
+
+# Zoek de fout in de volgende code:
+
+def f(getallen):
+    m = 0
+    for getal in getallen:
+        if getal > m:
+            m = getal
+    return m
+
+# 1. Wat verwacht je dat deze code doet?
+
+
+
+# 2. Schrijf een test die deze verwachting verifieert.
+
+"""
+    Je schrijft een test door een nieuwe functie toe te voegen die start met "test_" en je eindigt met assert ...
+     (op de plaats van ... vul je de test in)
+"""
+
+## Voorbeeld:
+
+def test_f():
+    assert f([1, 2, 3]) == 3
+
+## voer de test uit door op het play icoontje naast de functie te klikken
+
+# 3. Voeg nu een extra assert toe aan de test_find_max functie en zorg dat die faalt.
+
+# 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.
