@@ -1,12 +1,18 @@
 
 # Nulmatrix maken
 
-# Schrijf een functie nulmatrix om een nulmatrix te maken. De functie heeft twee parameters, aantalrijen en aantalkolommen
-# en geeft een matrix terug met aantalrijen rijen en aantalkolommen kolommen. Alle elementen van de matrix zijn 0.
+# Schrijf een functie nulmatrix(aantalrijen,aantalkolommen) om een nulmatrix te maken.
 #
-# Probeer het eerst door een matrix te maken met maar 1 rij en 1 kolom.
-# Probeer het daarna met een matrix van 1 rij en 3 kolommen.
-# Probeer het daarna met een matrix van 2 rijen en 3 kolommen.
-# Probeer het daarna te veralgemenen en gebruik te maken van de parameters.
+# Doe dit in stappen (elke stap heeft een extra test). Probeer met een matrix met
+# - 1 rij en 1 kolom en roep de functie nulvector op van de vorige vraag
+# - 1 rij en 3 kolommen
+# - 2 rijen en 3 kolommen
+
+from reeks3.vraag01 import nulvector
 
 # Zet hier je code
+def nulmatrix(aantalrijen, aantalkolommen):
+    matrix = []
+    for i in range(aantalrijen):
+        matrix.append(nulvector(aantalkolommen))
+    return matrix

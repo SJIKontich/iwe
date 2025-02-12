@@ -1,7 +1,20 @@
 
 # Eenheidsmatrix maken
 
-# Schrijf een functie eenheidsmatrix om een eenheidsmatrix te maken. De functie heeft een parameter n
-# en geeft een vierkante matrix terug met n rijen en n kolommen. De elementen op de diagonaal van de matrix zijn 1,
+# Schrijf een functie eenheidsmatrix(n). De functie geeft een vierkante matrix terug met n rijen en n kolommen.
+# De elementen op de diagonaal van de matrix zijn 1. Gebruik de functie nulmatrix van de vorige vraag.
+
+# Voorbeeld:
+
+# >>> eenheidsmatrix(3)
+# [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+
+from reeks3.vraag02 import nulmatrix
+
 
 # Zet hier je code
+def eenheidsmatrix(n):
+    matrix = nulmatrix(n, n)
+    for i in range(n):
+        matrix[i][i] = 1
+    return matrix
