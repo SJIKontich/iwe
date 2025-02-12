@@ -22,13 +22,9 @@ def schaar_steen_papier_helper(jij, tegenspeler):
 
     # Zet hier je code
     # Als jij wint, geef de keuze van de tegenspeler terug
-    if jij == ... and tegenspeler == ...:
-        return ...
     ...
 
     # Als jij verliest, geef de keuze terug die niet gespeeld werd
-    if jij != ... and tegenspeler != ...:
-        return ...
     ...
 
 
