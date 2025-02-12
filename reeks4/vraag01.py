@@ -1,6 +1,6 @@
 
-# Nulvector maken
+# Faculteit
 
-# Schrijf een functie nulvector(n) om vector (een list) terug te geven met n elementen die allemaal 0 zijn.
+# Schrijf een functie faculteit(n) die de faculteit van n teruggeeft dmv een for loop.
 
 # Zet hier je code

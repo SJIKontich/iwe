@@ -1,11 +1,6 @@
 
-# Matrices: aantal rijen
+# Fibonacci reeks
 
-# Schrijf een functie aantalrijen(matrix) die het aantalrijen van m teruggeeft.
-
-# Voorbeeld:
-
-# >>> aantalrijen([[1, 2, 3], [4, 5, 6]])
-# 2
+# Schrijf een functie fib(n) die het n-de getal van de Fibonacci reeks teruggeeft mbv recursie.
 
 # Zet hier je code

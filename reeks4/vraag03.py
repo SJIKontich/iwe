@@ -1,13 +1,10 @@
 
-# Eenheidsmatrix maken
+# Fibonacci reeks
 
-# Schrijf een functie eenheidsmatrix(n). De functie geeft een vierkante matrix terug met n rijen en n kolommen.
-# De elementen op de diagonaal van de matrix zijn 1. Gebruik de functie nulmatrix van de vorige vraag.
+# Schrijf een functie fib(n) die het n-de getal van de Fibonacci reeks teruggeeft mbv een for loop.
 
-# Voorbeeld:
-
-# >>> eenheidsmatrix(3)
-# [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
-
+# Denk eraan dat de Fibonacci reeks als volgt begint:
+# 1, 1, 2, 3, 5, 8, 13, 21, ...
+# m.a.w. fib(1) = 1, fib(2) = 1, fib(3) = fib(2) + fib(1) = 2, fib(4) = fib(3) + fib(2) = 3, ...
 
 # Zet hier je code
