@@ -41,7 +41,7 @@ def shift_vragen(root_dir, start_index, shift_amount, dry_run=False):
         print("\n[DRY RUN]: Geen bestanden gewijzigd, alleen simulatie uitgevoerd.")
 
 # ✅ Gebruik: Shift met dry-run
-# shift_vragen("../reeks2", start_index=8, shift_amount=4, dry_run=True)
+shift_vragen("../reeks3", start_index=4, shift_amount=1, dry_run=True)
 
 # ✅ Gebruik: Echte shift
-# shift_vragen("../reeks2", start_index=8, shift_amount=4, dry_run=False)
+shift_vragen("../reeks3", start_index=4, shift_amount=1, dry_run=False)
