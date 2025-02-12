@@ -5,7 +5,7 @@ def som_positieve_getallen(getallen):
     totaal = 0
     for getal in getallen:
         if getal > 0:
-            totaal += getal
+            totaal = totaal + getal
         else:
             totaal = 0
     return totaal
