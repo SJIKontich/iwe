@@ -1,6 +1,6 @@
 # Zoek de fout in de volgende code:
 
-def som_even_indexen(lijst):
+def som(lijst):
     som = 0
     # begin bij laatste element
     i = len(lijst) - 1
@@ -9,9 +9,10 @@ def som_even_indexen(lijst):
         i = i - 2
     return som
 
-# De functie loopt over alle elementen van een lijst van achter naar voor, maar slaat er telkens een over.
-# De functie geeft uiteindelijk de som van die elementen terug.
+# 1. Wat verwacht je dat deze code doet?
 
-# 1. Schrijf een test die deze verwachting verifieert. Je zal merken dat de test faalt.
 
-# 2. Gebruik de debugger om de fout te vinden en de test te laten slagen.
+
+# 2. Schrijf een test die deze verwachting verifieert.
+
+# 3. Gebruik de debugger om de fout te vinden en de test te laten slagen.
