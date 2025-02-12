@@ -1,13 +1,19 @@
+# Zoek de fout in de volgende code:
 
-# Eenheidsmatrix maken
+def tel_klinkers(lijst):
+    klinkers = ["a", "e", "i", "o", "u"]
+    aantal = 0
+    for letter in lijst:
+        if letter in klinkers:
+            aantal = aantal + 1
+    return aantal
 
-# Schrijf een functie eenheidsmatrix(n). De functie geeft een vierkante matrix terug met n rijen en n kolommen.
-# De elementen op de diagonaal van de matrix zijn 1. Gebruik de functie nulmatrix van de vorige vraag.
-
-# Voorbeeld:
-
-# >>> eenheidsmatrix(3)
-# [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+# 1. Wat verwacht je dat deze code doet?
 
 
-# Zet hier je code
+
+# 2. Schrijf een test die deze verwachting verifieert.
+
+# 3. Voeg nu een extra assert toe die faalt.
+
+# 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.

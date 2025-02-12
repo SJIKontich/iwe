@@ -1,11 +1,16 @@
+# Zoek de fout in de volgende code:
 
-# Matrices: aantal rijen
+def som(n):
+    totaal = 0
+    i = 1
+    while i < n:
+        i = i + 1
+        totaal = totaal + i
+    return totaal
 
-# Schrijf een functie aantalrijen(matrix) die het aantalrijen van m teruggeeft.
+# De functie zou de som van alle getallen van 1 tot en met n moeten teruggeven.
 
-# Voorbeeld:
+# 1. Schrijf een test die deze verwachting verifieert. Je zal merken dat de test faalt.
+#       Gebruik de stop knop (rood vierkantje rechtsboven of links bij de testen) om de test te stoppen.
 
-# >>> aantalrijen([[1, 2, 3], [4, 5, 6]])
-# 2
-
-# Zet hier je code
+# 2. Gebruik de debugger om ALLE fouten te vinden en de test te laten slagen.
