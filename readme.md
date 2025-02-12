@@ -35,7 +35,9 @@ Vanaf hier hebben de oefeningen een hintniveau:
 - welke datastructuur voor afbeelding
 - IO
 
+--> toets
+
 di: 
 - 1u tot oef19
 - 1u debuggen en testen
-- 1u IO
+- 1u recursie
