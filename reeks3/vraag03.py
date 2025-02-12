@@ -1,10 +1,10 @@
 # Zoek de fout in de volgende code:
 
-def tel_klinkers(lijst):
-    klinkers = ["a", "e", "i", "o", "u"]
+def tel(lijst):
+    letters = ["a", "e", "i", "o", "u"]
     aantal = 0
     for letter in lijst:
-        if letter in klinkers:
+        if letter in letters:
             aantal = aantal + 1
     return aantal
 

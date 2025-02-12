@@ -1,7 +1,7 @@
 
 # Zoek de fout in de volgende code:
 
-def som_positieve_getallen(getallen):
+def som(getallen):
     totaal = 0
     for getal in getallen:
         if getal > 0:

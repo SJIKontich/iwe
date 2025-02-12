@@ -10,7 +10,7 @@ def som_even_indexen(lijst):
     return som
 
 # De functie loopt over alle elementen van een lijst van achter naar voor, maar slaat er telkens een over.
-# De functie geeft de som van die elementen terug.
+# De functie geeft uiteindelijk de som van die elementen terug.
 
 # 1. Schrijf een test die deze verwachting verifieert. Je zal merken dat de test faalt.
 
