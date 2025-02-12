@@ -14,7 +14,7 @@ from random import randint
 
 def voeg_2_toe(lijst):
     # kies een willekeurige index
-    random_index = randint(...)
+    random_index = ...
 
     # zolang de waarde op die index niet 0 is, kies een nieuwe index
     while lijst[random_index] != ...:
