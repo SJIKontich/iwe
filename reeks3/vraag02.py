@@ -19,6 +19,7 @@ def som(getallen):
 
 def test_som():
     assert som([1, 2, 3]) == 6
+    assert som([1, 2, -3]) == 3
 
 # 3. Voeg nu een extra assert toe die faalt.
 
