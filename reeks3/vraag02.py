@@ -17,6 +17,9 @@ def som(getallen):
 
 # 2. Schrijf een test die deze verwachting verifieert.
 
+def test_som():
+    assert som([1, 2, 3]) == 6
+    
 # 3. Voeg nu een extra assert toe die faalt.
 
 # 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.
