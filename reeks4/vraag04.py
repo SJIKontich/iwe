@@ -6,6 +6,6 @@
 # Zet hier je code
 def som(n):
     resultaat = ...
-    for i in range(...:
+    for i in range(...):
         resultaat = ...
     return resultaat
