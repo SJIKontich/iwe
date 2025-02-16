@@ -6,6 +6,7 @@
 # Zet hier je code
 def macht(x, n):
     resultaat = ...
-    for i in range(...):
-        resultaat = ...
+
+    ...
+    
     return resultaat
