@@ -18,5 +18,5 @@ def som(lijst):
 
 def test_som():
     assert som([1, 2, 3, 4, 5]) == 9
-    
+
 # 3. Gebruik de debugger om de fout te vinden en de test te laten slagen.
