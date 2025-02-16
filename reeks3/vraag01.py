@@ -24,8 +24,8 @@ print(f([3, 2, 10, 1]))
 
 ## Voorbeeld: (verwijder de # zodat deze code kan uitgevoerd worden)
 
-def test_f():
-    assert f([1, 2, 3]) == 3
+# def test_f():
+#     assert f([1, 2, 3]) == 3
 
 ## voer de test uit door op het play icoontje naast de functie te klikken
 
