@@ -8,6 +8,6 @@ def som_van_reeks(n):
 
 # De functie zou de som van alle getallen van 1 tot en met n moeten teruggeven.
 
-# 1. Schrijf een test die deze verwachting verifieert. Je zal merken dat de test faalt.
+# 1. Schrijf een test met drie assertions die deze verwachting verifieert. Je zal merken dat de test faalt.
 
 # 2. Gebruik de debugger om de fout te vinden en de test te laten slagen.
