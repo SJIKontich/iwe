@@ -11,6 +11,7 @@ def tel(lijst):
 
 # 1. Wat verwacht je dat deze code doet?
 
+# Antwoord: de code telt het aantal klinkers in de lijst
 
 
 # 2. Schrijf een test die deze verwachting verifieert.
