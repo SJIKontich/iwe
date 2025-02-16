@@ -21,11 +21,7 @@ print("dit duurde met recursie", time.time() - start, "seconden")
 
 # welke methode is sneller?
 
-# recursie
-
 # pas n aan naar 100, welke methode is nu sneller?
-
-# recursie
 
 # pas n aan naar 1000, welke methode is nu sneller?
 
