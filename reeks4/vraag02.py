@@ -5,7 +5,7 @@
 
 # Zet hier je code
 def faculteit(n):
-    if n == 0:
+    if n == ...:
         return ...
     else:
-        return n * faculteit(...)
+        return n * ...
