@@ -13,6 +13,7 @@ print(f([1, 2, 3]))
 print(f([3, 2, 1]))
 print(f([3, 2, 10, 1]))
 
+# Antwoord: de code geeft het grootste getal in de lijst terug
 
 # 2. Schrijf een test die deze verwachting verifieert.
 
