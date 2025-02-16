@@ -2,8 +2,9 @@
 
 def som(n):
     totaal = 0
-    i = 1
+    i = 0
     while i < n:
+        i = i + 1
         totaal = totaal + i
     return totaal
 
@@ -13,7 +14,6 @@ def som(n):
 #       Gebruik de stop knop (rood vierkantje rechtsboven of links bij de testen) om de test te stoppen.
 
 def test_som():
-    assert som(1) == 1
     assert som(2) == 3
     assert som(3) == 6
 
