@@ -8,5 +8,5 @@ def macht(x, n):
     resultaat = ...
 
     ...
-    
+
     return resultaat
