@@ -9,10 +9,6 @@ except (SyntaxError, IndentationError) as e:
 
 
 def test_vraag04():
-    check_exact_match(vraag04, "fib", (1,), 1)
-    check_exact_match(vraag04, "fib", (2,), 1)
-    check_exact_match(vraag04, "fib", (3,), 2)
-    check_exact_match(vraag04, "fib", (4,), 3)
-    check_exact_match(vraag04, "fib", (5,), 5)
-    check_exact_match(vraag04, "fib", (6,), 8)
-    check_exact_match(vraag04, "fib", (7,), 13)
+    check_exact_match(vraag04, "som", (3,), 6)
+    check_exact_match(vraag04, "som", (4,), 10)
+    check_exact_match(vraag04, "som", (5,), 15)

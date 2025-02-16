@@ -1,11 +1,6 @@
 
-# Matrices: aantal kolommen
+# som tem n
 
-# Schrijf een functie aantalkolommen(matrix) die het aantal kolommen van matrix teruggeeft.
-
-# Voorbeeld:
-
-# >>> aantalkolommen([[1, 2, 3], [4, 5, 6]])
-# 3
+# Schrijf een functie som(n) die de som van de getallen van 1 tot en met n teruggeeft dmv recursie.
 
 # Zet hier je code

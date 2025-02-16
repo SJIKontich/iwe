@@ -1,6 +1,6 @@
 
-# Fibonacci reeks
+# som tem n
 
-# Schrijf een functie fib(n) die het n-de getal van de Fibonacci reeks teruggeeft mbv recursie.
+# Schrijf een functie som(n) die de som van de getallen van 1 tot en met n teruggeeft dmv een for loop.
 
 # Zet hier je code

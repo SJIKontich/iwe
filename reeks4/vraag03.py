@@ -1,10 +1,28 @@
 
-# Fibonacci reeks
+# Vergelijk faculteit met een for loop en recursie
 
-# Schrijf een functie fib(n) die het n-de getal van de Fibonacci reeks teruggeeft mbv een for loop.
+# Lees de code hieronder.
 
-# Denk eraan dat de Fibonacci reeks als volgt begint:
-# 1, 1, 2, 3, 5, 8, 13, 21, ...
-# m.a.w. fib(1) = 1, fib(2) = 1, fib(3) = fib(2) + fib(1) = 2, fib(4) = fib(3) + fib(2) = 3, ...
+import time
+import reeks4.vraag01
+import reeks4.vraag02
 
-# Zet hier je code
+n = 10
+
+start = time.time()
+print(n,"! = ", reeks4.vraag01.faculteit(n))
+print("dit duurde met een for loop" , time.time() - start, "seconden")
+
+start = time.time()
+print(n,"! = ", reeks4.vraag02.faculteit(n))
+print("dit duurde met recursie" , time.time() - start, "seconden")
+
+# wat doet deze code?
+
+# welke methode is sneller?
+
+# pas n aan naar 100, welke methode is nu sneller?
+
+# pas n aan naar 1000, welke methode is nu sneller?
+
+# wat is de conclusie?
