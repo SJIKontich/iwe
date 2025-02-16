@@ -35,7 +35,9 @@ Vanaf hier hebben de oefeningen een hintniveau:
 - welke datastructuur voor afbeelding
 - IO
 
---> toets
+--> toets: geef elke stap een punt en per stap die ze implementeren kunnen ze dus al punten halen
+ze bepalen dus zelf hoeveel ze op de toets halen
+de som van alles is wel veel hoger dan het max, dus ze moeten niet alles implementeren
 
 di: 
 - 1u tot oef19
