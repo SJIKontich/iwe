@@ -5,7 +5,7 @@
 
 # Zet hier je code
 def faculteit(n):
-    resultaat = 1
-    for i in range(1, n+1):
-        resultaat = resultaat * ...
+    resultaat = ...
+    for i in range(...):
+        resultaat = ...
     return resultaat
