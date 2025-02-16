@@ -12,7 +12,7 @@ def som(lijst):
 
 # 1. Wat verwacht je dat deze code doet?
 
-
+# Antwoord: de code geeft de som van alle elementen vanaf het laatste element in de lijst en slaagt telkens 1 element over
 
 # 2. Schrijf een test die deze verwachting verifieert.
 
