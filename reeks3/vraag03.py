@@ -18,7 +18,7 @@ def tel(lijst):
 
 def test_tel():
     assert tel(["a", "b", "c"]) == 1
-    
+
 # 3. Voeg nu een extra assert toe die faalt.
 
 # 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.
