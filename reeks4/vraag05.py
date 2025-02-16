@@ -6,6 +6,6 @@
 # Zet hier je code
 def som(n):
     if n == 0:
-        return 0
+        return ...
     else:
-        return n + som(n-1)
+        return n + som(...)
