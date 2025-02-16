@@ -26,6 +26,7 @@ print(f([3, 2, 10, 1]))
 
 def test_f():
     assert f([1, 2, 3]) == 3
+    assert f([-1, -2, -3]) == -1
 
 ## voer de test uit door op het play icoontje naast de functie te klikken
 
