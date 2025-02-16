@@ -6,6 +6,6 @@
 # Zet hier je code
 def macht(x, n):
     if n == 0:
-        return 1
+        return ...
     else:
-        return x * macht(x, n-1)
+        return x * macht(..., ...)
