@@ -9,7 +9,7 @@ def som(n):
 
 # De functie zou de som van alle getallen van 1 tot en met n moeten teruggeven.
 
-# 1. Schrijf een test die deze verwachting verifieert. Je zal merken dat de test faalt.
+# 1. Schrijf een test met 3 assertions die deze verwachting verifieert. Je zal merken dat de test faalt.
 #       Gebruik de stop knop (rood vierkantje rechtsboven of links bij de testen) om de test te stoppen.
 
 def test_som():
