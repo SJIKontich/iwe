@@ -14,13 +14,13 @@
 
 # Zet hier je code
 def aantal_rijstkorrels(n):
-    if n == 1:
+    if n == ...:
         return ...
     else:
-        return 2 * aantal_rijstkorrels(...)
+        return 2 * ...
 
 def totaal_aantal_rijstkorrels():
     resultaat = ...
     for i in range(...):
-        resultaat = resultaat + aantal_rijstkorrels(...)
+        resultaat = resultaat + ...
     return resultaat
