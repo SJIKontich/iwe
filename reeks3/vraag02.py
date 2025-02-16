@@ -7,7 +7,7 @@ def som(getallen):
         if getal > 0:
             totaal = totaal + getal
         else:
-            totaal = 0
+            totaal = totaal + 0 # of doe de else weg
     return totaal
 
 # 1. Wat verwacht je dat deze code doet?
