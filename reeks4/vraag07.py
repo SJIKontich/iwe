@@ -7,5 +7,5 @@
 def macht(x, n):
     resultaat = 1
     for i in range(n):
-        resultaat = resultaat * x
+        resultaat = resultaat * ...
     return resultaat
