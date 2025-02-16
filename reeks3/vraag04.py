@@ -15,5 +15,6 @@ def som(n):
 def test_som():
     assert som(2) == 3
     assert som(3) == 6
+    assert som(4) == 10
 
 # 2. Gebruik de debugger om ALLE fouten te vinden en de test te laten slagen.
