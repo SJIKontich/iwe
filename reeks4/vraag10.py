@@ -23,5 +23,5 @@ def totaal_aantal_rijstkorrels():
     resultaat = ...
 
     ...
-    
+
     return resultaat
