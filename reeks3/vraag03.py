@@ -1,7 +1,20 @@
+# Zoek de fout in de volgende code:
 
-# Eenheidsmatrix maken
+def tel(lijst):
+    letters = ["a", "e", "i", "o", "u"]
+    aantal = 0
+    for letter in lijst:
+        # als de letter voorkomt in de lijst met letters
+        if letter in letters:
+            aantal = aantal + 1
+    return aantal
 
-# Schrijf een functie eenheidsmatrix om een eenheidsmatrix te maken. De functie heeft een parameter n
-# en geeft een vierkante matrix terug met n rijen en n kolommen. De elementen op de diagonaal van de matrix zijn 1,
+# 1. Wat verwacht je dat deze code doet?
 
-# Zet hier je code
+
+
+# 2. Schrijf een test die deze verwachting verifieert.
+
+# 3. Voeg nu een extra assert toe die faalt.
+
+# 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.

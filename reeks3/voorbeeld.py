@@ -1,17 +1,18 @@
+# Bij de aankoop van zakken calletjes krijg je 20% korting vanaf 6 stuks.
+# Een zak kost 24 euro. De functie prijs(n) rekent uit
+# welke prijs je moet betalen indien je n zakken koopt.
 
 # Zoek de fout in de volgende code:
-
-def f(getallen):
-    m = 0
-    for getal in getallen:
-        if getal > m:
-            m = getal
-    return m
+def prijs(n):
+    if n > 6:
+        return 24 * n * 0.80
+    else:
+        return 24 * n
 
 # 1. Wat verwacht je dat deze code doet? Bekijk de code en voer dit bestand uit.
-print(f([1, 2, 3]))
-print(f([3, 2, 1]))
-print(f([3, 2, 10, 1]))
+print(prijs(1))
+print(prijs(3))
+print(prijs(6))
 
 
 # 2. Schrijf een test die deze verwachting verifieert.
@@ -21,7 +22,7 @@ print(f([3, 2, 10, 1]))
      (op de plaats van ... vul je de test in)
 """
 
-## Voorbeeld: (verwijder de # zodat deze code kan uitgevoerd worden)
+## Voorbeeld: (verwijder de # om deze code te activeren)
 
 # def test_f():
 #     assert f([1, 2, 3]) == 3

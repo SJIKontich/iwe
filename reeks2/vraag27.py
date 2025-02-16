@@ -27,4 +27,3 @@ def schaar_steen_papier_helper(jij, tegenspeler):
     # Als jij verliest, geef de keuze terug die niet gespeeld werd
     ...
 
-

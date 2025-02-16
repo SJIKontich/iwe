@@ -1,12 +1,21 @@
 
-# Nulmatrix maken
+# Zoek de fout in de volgende code:
 
-# Schrijf een functie nulmatrix om een nulmatrix te maken. De functie heeft twee parameters, aantalrijen en aantalkolommen
-# en geeft een matrix terug met aantalrijen rijen en aantalkolommen kolommen. Alle elementen van de matrix zijn 0.
-#
-# Probeer het eerst door een matrix te maken met maar 1 rij en 1 kolom.
-# Probeer het daarna met een matrix van 1 rij en 3 kolommen.
-# Probeer het daarna met een matrix van 2 rijen en 3 kolommen.
-# Probeer het daarna te veralgemenen en gebruik te maken van de parameters.
+def som(getallen):
+    totaal = 0
+    for getal in getallen:
+        if getal > 0:
+            totaal = totaal + getal
+        else:
+            totaal = 0
+    return totaal
 
-# Zet hier je code
+# 1. Wat verwacht je dat deze code doet?
+
+
+
+# 2. Schrijf een test die deze verwachting verifieert.
+
+# 3. Voeg nu een extra assert toe die faalt.
+
+# 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.
