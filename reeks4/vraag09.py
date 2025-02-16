@@ -29,6 +29,4 @@ print("dit duurde met recursie", time.time() - start, "seconden")
 
 # pas n aan naar 1000, welke methode is nu sneller?
 
-# recursie werkt niet meer
-
 # wat is de conclusie?
