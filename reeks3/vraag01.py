@@ -2,7 +2,7 @@
 # Zoek de fout in de volgende code:
 
 def f(getallen):
-    m = 0
+    m = getallen[0]
     for getal in getallen:
         if getal > m:
             m = getal
