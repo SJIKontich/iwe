@@ -22,13 +22,22 @@ print(prijs(6))
      (op de plaats van ... vul je de test in)
 """
 
-## Voorbeeld: (verwijder de # om deze code te activeren)
+## Voorbeeld:
 
-# def test_f():
-#     assert f([1, 2, 3]) == 3
+def test_prijs():
+    assert prijs(1) == 24           # zal slagen
+    assert prijs(3) == 72           # zal slagen
+    assert prijs(6) == 144 * 0.8    # zal falen
 
 ## voer de test uit door op het play icoontje naast de functie te klikken
 
 # 3. Voeg nu een extra assert toe aan de functie en zorg dat die faalt.
 
 # 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.
+
+## Zet een breakpoint op regel 30 (dit is de assertion die faalt).
+## Klik op de debug knop (naast de run knop).
+## Klik op het icoontje met de pijl naar onder (step into). Je stapt nu de functie binnen.
+## Klik op het icoontje met de pijl naar boven en beneden (step over). Je stapt nu naar de volgende regel.
+## Terwijl je over de regel gaat, zie je de waarde van de variabelen veranderen.
+## Zoek de fout en pas de code aan. Voer de test opnieuw uit.
