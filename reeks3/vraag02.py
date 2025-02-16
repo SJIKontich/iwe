@@ -12,6 +12,7 @@ def som(getallen):
 
 # 1. Wat verwacht je dat deze code doet?
 
+# Antwoord: de code geeft de som van alle positieve getallen in de lijst terug
 
 
 # 2. Schrijf een test die deze verwachting verifieert.
