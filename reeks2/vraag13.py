@@ -7,7 +7,7 @@
 
 # Zet hier je code
 def product(getallen):
-    product = 1
-    for getal in getallen:
-        product = product * getal
+    product = ...
+    for ... in ...:
+        ...
     return product

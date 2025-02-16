@@ -1,11 +1,6 @@
 
-# Matrices: aantal rijen
+# som tem n
 
-# Schrijf een functie aantalrijen(matrix) die het aantalrijen van m teruggeeft.
-
-# Voorbeeld:
-
-# >>> aantalrijen([[1, 2, 3], [4, 5, 6]])
-# 2
+# Schrijf een functie som(n) die de som van de getallen van 1 tot en met n teruggeeft dmv een for loop.
 
 # Zet hier je code

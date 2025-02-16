@@ -1,10 +1,9 @@
 
-# Vergelijk som met een for loop en recursie
+# Vergelijk macht met een for loop en recursie
 
-# Kopieer de code van vraag03.py en pas deze aan zodat je de berekening van de som vergelijkt met een for loop en recursie.
+# Kopieer de code van vraag03.py en pas deze aan zodat je de berekening van de macht vergelijkt met een for loop en recursie.
 
 # Zet hier je code
-
 
 
 # welke methode is sneller?

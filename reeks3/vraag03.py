@@ -1,20 +1,26 @@
+# Zoek de fout in de volgende code:
 
-# Eenheidsmatrix maken
+def tel(lijst):
+    letters = ["a", "e", "i", "o", "u"]
+    aantal = 0
+    for letter in lijst:
+        # als de letter voorkomt in de lijst met letters
+        if letter in letters:
+            aantal = aantal + 1
+    return aantal
 
-# Schrijf een functie eenheidsmatrix(n). De functie geeft een vierkante matrix terug met n rijen en n kolommen.
-# De elementen op de diagonaal van de matrix zijn 1. Gebruik de functie nulmatrix van de vorige vraag.
+# 1. Wat verwacht je dat deze code doet?
 
-# Voorbeeld:
-
-# >>> eenheidsmatrix(3)
-# [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
-
-from reeks3.vraag02 import nulmatrix
+# Antwoord: de code telt het aantal klinkers in de lijst
 
 
-# Zet hier je code
-def eenheidsmatrix(n):
-    matrix = nulmatrix(n, n)
-    for i in range(n):
-        matrix[i][i] = 1
-    return matrix
+# 2. Schrijf een test die deze verwachting verifieert.
+
+def test_tel():
+    assert tel(["a", "b", "c"]) == 1
+    assert tel(["A", "b", "c"]) == 1
+
+
+# 3. Voeg nu een extra assert toe die faalt.
+
+# 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.

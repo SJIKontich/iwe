@@ -14,12 +14,13 @@ from random import randint
 
 def voeg_2_toe(lijst):
     # kies een willekeurige index
-    random_index = randint(0, len(lijst) - 1)
+    random_index = ...
 
     # zolang de waarde op die index niet 0 is, kies een nieuwe index
-    while lijst[random_index] != 0:
-        random_index = randint(0, len(lijst) - 1)
+    while lijst[random_index] != ...:
+        random_index = ...
 
     # zet een 2 op die index
-    lijst[random_index] = 2
+    lijst[random_index] = ...
+
     return lijst

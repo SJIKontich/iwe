@@ -10,10 +10,12 @@ def f(x):
 
 # Zet hier je code
 def integraal(f, a, b, n):
-    dx = (b - a) / n
-    som = 0
-    x = a
-    for i in range(n):
-        som = som + f(x)
-        x = x + dx
-    return som * dx
+    # maak variabelen aan voor de som en de breedte van de deelintervallen
+    ...
+    # x neemt de eerste waarde aan van het eerste deelinterval
+    x = ...
+    for i in ...:
+        som = ...
+        # x neemt de waarde aan van het volgende deelinterval
+        x = ...
+    return ...

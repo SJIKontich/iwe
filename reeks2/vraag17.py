@@ -17,6 +17,6 @@ from math import sqrt
 # Zet hier je code
 def afstand(v1, v2):
     som = 0
-    for i in range(len(v1)):
-        som = som + (v1[i] - v2[i])**2
-    return sqrt(som)
+    for i in ...:
+        som = ...
+    return ...

@@ -11,6 +11,7 @@
 # print("Goodbye!")
 
 # Zet hier je code
-for i in range(1, 6):
-    print(i)
+
+# gebruik een for loop om de getallen 1 tot en met 5 te tonen
+...
 print("Goodbye!")

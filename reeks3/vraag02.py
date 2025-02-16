@@ -1,18 +1,26 @@
 
-# Nulmatrix maken
+# Zoek de fout in de volgende code:
 
-# Schrijf een functie nulmatrix(aantalrijen,aantalkolommen) om een nulmatrix te maken.
-#
-# Doe dit in stappen (elke stap heeft een extra test). Probeer met een matrix met
-# - 1 rij en 1 kolom en roep de functie nulvector op van de vorige vraag
-# - 1 rij en 3 kolommen
-# - 2 rijen en 3 kolommen
+def som(getallen):
+    totaal = 0
+    for getal in getallen:
+        if getal > 0:
+            totaal = totaal + getal
+        else:
+            totaal = 0
+    return totaal
 
-from reeks3.vraag01 import nulvector
+# 1. Wat verwacht je dat deze code doet?
 
-# Zet hier je code
-def nulmatrix(aantalrijen, aantalkolommen):
-    matrix = []
-    for i in range(aantalrijen):
-        matrix.append(nulvector(aantalkolommen))
-    return matrix
+# Antwoord: de code geeft de som van alle positieve getallen in de lijst terug
+
+
+# 2. Schrijf een test die deze verwachting verifieert.
+
+def test_som():
+    assert som([1, 2, 3]) == 6
+    assert som([1, 2, -3]) == 3
+
+# 3. Voeg nu een extra assert toe die faalt.
+
+# 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.

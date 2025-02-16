@@ -1,5 +1,6 @@
 # reeks1: doolhof (if, while, variabelen)
-# reeks2: for en functies --> samenhouden want zelfde code 2 keer is ok
+
+# reeks2: for en functies --> samenhouden want zelfde code 2 keer is ok, maar opsplitsen in makkelijk en moeilijk bv (reeks3 wordt dan de moeilijkere)
 
 Vanaf hier hebben de oefeningen een hintniveau:
 
@@ -9,18 +10,16 @@ Vanaf hier hebben de oefeningen een hintniveau:
 - niveau 3: de oplossing staat er op een paar details na volledig in code (branch niveau3)
 - niveau 4: de oplossing staat er volledig in code (branch oplossing)
 
-# reeks3: debugging
+# reeks3: debugging en testen
 
-# reeks4 testen
-
-# reeks5 IO
+# reeks4: recursie
+ 
+- faculteit: 2 varianten en vergelijken
+- fibonacci: 2 varianten en vergelijken
 
 --> toets
 
-# reeks5: recursie
-
-- faculteit: 2 varianten en vergelijken
-- fibonacci: 2 varianten en vergelijken
+# reeks5: IO
 
 # reeks6: datastructuren
 
@@ -40,4 +39,4 @@ Vanaf hier hebben de oefeningen een hintniveau:
 di: 
 - 1u tot oef19
 - 1u debuggen en testen
-- 1u IO
+- 1u recursie

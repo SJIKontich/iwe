@@ -1,23 +1,23 @@
 
-# Matrices optellen
+# Zoek de fout in de volgende code:
 
-# Schrijf een functie som(m1,m2) die de som van de twee matrices teruggeeft.
-# Maak gebruik van de functie nulmatrix, aantalrijen en aantalkolommen.
+def som(lijst):
+    som = 0
+    # begin bij laatste element
+    i = len(lijst) - 1
+    while i != 0:
+        som = som + lijst[i]
+        # ga in stapjes van 2 naar het begin van de lijst
+        i = i - 2
+    return som
 
-# Voorbeeld:
+# 1. Wat verwacht je dat deze code doet?
 
-# >>> som([[1, 2], [3, 4]], [[5, 6], [7, 8]])
-# [[6, 8], [10, 12]]
+# Antwoord: de code geeft de som van alle elementen vanaf het laatste element in de lijst en slaagt telkens 1 element over
 
-from reeks3.vraag02 import nulmatrix
-from reeks3.vraag04 import aantalrijen
-from reeks3.vraag05 import aantalkolommen
+# 2. Schrijf een test die deze verwachting verifieert.
 
-# Zet hier je code
-def som(m1, m2):
-    m = nulmatrix(aantalrijen(m1), aantalkolommen(m1))
-    for i in range(aantalrijen(m1)):
-        for j in range(aantalkolommen(m1)):
-            m[i][j] = m1[i][j] + m2[i][j]
+def test_som():
+    assert som([1, 2, 3, 4, 5]) == 9
 
-    return m
+# 3. Gebruik de debugger om de fout te vinden en de test te laten slagen.

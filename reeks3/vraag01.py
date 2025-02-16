@@ -1,8 +1,35 @@
 
-# Nulvector maken
+# Zoek de fout in de volgende code:
 
-# Schrijf een functie nulvector(n) om vector (een list) terug te geven met n elementen die allemaal 0 zijn.
+def f(getallen):
+    m = 0
+    for getal in getallen:
+        if getal > m:
+            m = getal
+    return m
 
-# Zet hier je code
-def nulvector(n):
-    return [0] * n
+# 1. Wat verwacht je dat deze code doet? Bekijk de code en voer dit bestand uit.
+print(f([1, 2, 3]))
+print(f([3, 2, 1]))
+print(f([3, 2, 10, 1]))
+
+# Antwoord: de code geeft het grootste getal in de lijst terug
+
+# 2. Schrijf een test die deze verwachting verifieert.
+
+"""
+    Je schrijft een test door een nieuwe functie toe te voegen die start met "test_" en je eindigt met assert ...
+     (op de plaats van ... vul je de test in)
+"""
+
+## Voorbeeld: (verwijder de # zodat deze code kan uitgevoerd worden)
+
+def test_f():
+    assert f([1, 2, 3]) == 3
+    assert f([-1, -2, -3]) == -1
+
+## voer de test uit door op het play icoontje naast de functie te klikken
+
+# 3. Voeg nu een extra assert toe aan de functie en zorg dat die faalt.
+
+# 4. Gebruik de debugger om de fout te vinden en de test te laten slagen.

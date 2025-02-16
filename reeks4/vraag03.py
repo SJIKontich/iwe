@@ -1,13 +1,28 @@
 
-# Eenheidsmatrix maken
+# Vergelijk faculteit met een for loop en recursie
 
-# Schrijf een functie eenheidsmatrix(n). De functie geeft een vierkante matrix terug met n rijen en n kolommen.
-# De elementen op de diagonaal van de matrix zijn 1. Gebruik de functie nulmatrix van de vorige vraag.
+# Lees de code hieronder.
 
-# Voorbeeld:
+import time
+import reeks4.vraag01
+import reeks4.vraag02
 
-# >>> eenheidsmatrix(3)
-# [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+n = 10
 
+start = time.time()
+print(n,"! = ", reeks4.vraag01.faculteit(n))
+print("dit duurde met een for loop" , time.time() - start, "seconden")
 
-# Zet hier je code
+start = time.time()
+print(n,"! = ", reeks4.vraag02.faculteit(n))
+print("dit duurde met recursie" , time.time() - start, "seconden")
+
+# wat doet deze code?
+
+# welke methode is sneller?
+
+# pas n aan naar 100, welke methode is nu sneller?
+
+# pas n aan naar 1000, welke methode is nu sneller?
+
+# wat is de conclusie?

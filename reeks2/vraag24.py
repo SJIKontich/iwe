@@ -22,16 +22,12 @@ def naar_rechts1(l, i):
     lijst = l.copy()
 
     # Zet hier je code
-    if i == len(lijst) - 1:
-        return lijst
-    if lijst[i] == 0:
-        return lijst
-    if lijst[i] == lijst[i + 1]:
-        lijst[i + 1] = lijst[i + 1] + lijst[i]
-        lijst[i] = 0
-        return lijst
-    elif lijst[i + 1] == 0:
-        lijst[i + 1] = lijst[i]
-        lijst[i] = 0
-        return lijst
+    if i == ...:
+        ...
+    if ... == ...:
+        ...
+    if ... == ...:
+        ...
+    if ... == ...:
+        ...
     return lijst
