@@ -4,7 +4,6 @@ def som(n):
     totaal = 0
     i = 1
     while i < n:
-        i = i + 1
         totaal = totaal + i
     return totaal
 
