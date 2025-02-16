@@ -1,7 +1,7 @@
 # Zoek de fout in de volgende code:
 
 def tel(lijst):
-    letters = ["a", "e", "i", "o", "u"]
+    letters = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     aantal = 0
     for letter in lijst:
         # als de letter voorkomt in de lijst met letters

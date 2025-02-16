@@ -19,10 +19,20 @@ print("dit duurde met recursie" , time.time() - start, "seconden")
 
 # wat doet deze code?
 
+# Ze vergelijk de tijd die het duurt om de faculteit van 10 te berekenen met een for loop en met recursie
+
 # welke methode is sneller?
+
+# recursie
 
 # pas n aan naar 100, welke methode is nu sneller?
 
+# recursie
+
 # pas n aan naar 1000, welke methode is nu sneller?
 
+# recursie werkt niet meer
+
 # wat is de conclusie?
+
+# recursie is sneller voor kleine getallen, maar voor grote getallen werkt recursie niet meer

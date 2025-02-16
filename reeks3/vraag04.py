@@ -2,8 +2,9 @@
 
 def som(n):
     totaal = 0
-    i = 1
+    i = 0
     while i < n:
+        i = i + 1
         totaal = totaal + i
     return totaal
 
