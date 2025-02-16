@@ -13,3 +13,14 @@
 # b) Schrijf een iteratieve functie totaal_aantal_rijstkorrels() dat berekent hoeveel rijstkorrels de koning moet geven aan de onderdaan.
 
 # Zet hier je code
+def aantal_rijstkorrels(n):
+    if n == 1:
+        return 1
+    else:
+        return 2 * aantal_rijstkorrels(n-1)
+
+def totaal_aantal_rijstkorrels():
+    resultaat = 0
+    for i in range(1, 65):
+        resultaat = resultaat + aantal_rijstkorrels(i)
+    return resultaat

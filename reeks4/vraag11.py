@@ -15,3 +15,10 @@
 # fib(n) = fib(n-1) + fib(n-2) met fib(0) = 0 en fib(1) = 1
 
 # Zet hier je code
+def fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
