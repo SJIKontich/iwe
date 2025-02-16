@@ -5,7 +5,7 @@
 
 # Zet hier je code
 def macht(x, n):
-    if n == 0:
+    if n == ...:
         return ...
     else:
-        return x * macht(..., ...)
+        return x * ...
