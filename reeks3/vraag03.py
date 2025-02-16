@@ -4,6 +4,7 @@ def tel(lijst):
     letters = ["a", "e", "i", "o", "u"]
     aantal = 0
     for letter in lijst:
+        # als de letter voorkomt in de lijst met letters
         if letter in letters:
             aantal = aantal + 1
     return aantal
