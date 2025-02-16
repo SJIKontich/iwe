@@ -6,7 +6,6 @@
 # Zet hier je code
 def som(n):
     resultaat = ...
-
     ...
 
     return resultaat
