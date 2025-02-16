@@ -16,9 +16,9 @@
 
 # Zet hier je code
 def fib(n):
-    if n == 0:
+    if n == ...:
         return ...
-    elif n == 1:
+    elif n == ...:
         return ...
     else:
-        return fib(...) + fib(...)
+        return ...
