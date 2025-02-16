@@ -17,8 +17,8 @@
 # Zet hier je code
 def fib(n):
     if n == 0:
-        return 0
+        return ...
     elif n == 1:
-        return 1
+        return ...
     else:
-        return fib(n-1) + fib(n-2)
+        return fib(...) + fib(...)
