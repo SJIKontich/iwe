@@ -32,5 +32,3 @@ print("dit duurde met recursie", time.time() - start, "seconden")
 # recursie werkt niet meer
 
 # wat is de conclusie?
-
-# recursie is sneller voor kleine getallen, maar voor grote getallen werkt recursie niet meer
