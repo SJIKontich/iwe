@@ -3,7 +3,7 @@
 
 def som_van_reeks(n):
     totaal = 0
-    for i in range(n):
+    for i in range(n+1):
         totaal = totaal + i
     return totaal
 
