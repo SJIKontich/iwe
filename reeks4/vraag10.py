@@ -15,7 +15,7 @@
 # Zet hier je code
 def aantal_rijstkorrels(n):
     if n == 1:
-        return ..
+        return ...
     else:
         return 2 * aantal_rijstkorrels(...)
 
