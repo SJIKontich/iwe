@@ -8,5 +8,5 @@ def som(n):
     resultaat = ...
 
     ...
-    
+
     return resultaat
