@@ -1,5 +1,7 @@
 # Debuggen en testen
 
+[Filmpje](https://drive.google.com/file/d/1x986WswUK8LfAp2CfVRjMcbbXv8ZdI-q/view)
+
 ## Debuggen
 
 Als je een fout maakt in je code, dan zal Python een foutmelding geven. Deze foutmelding bevat informatie over de fout en waar deze zich bevindt. Het is belangrijk om deze foutmelding te lezen en te begrijpen. Zo kan je de fout oplossen.

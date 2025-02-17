@@ -1,5 +1,7 @@
 # Recursie
 
+Bekijk dit [filmpje](https://drive.google.com/file/d/1x9jQmBV8tN3Yru9fQhyV8ROEvCd6ff_z/view?usp=drive_link) .
+
 Recursie betekent dat een functie zichzelf aanroept. Dit kan handig zijn als je een probleem hebt dat je kan opdelen in kleinere problemen die op dezelfde manier opgelost kunnen worden.
 
 ## Voorbeeld 1

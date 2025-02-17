@@ -1,10 +1,12 @@
+# Bekijk https://drive.google.com/file/d/1x986WswUK8LfAp2CfVRjMcbbXv8ZdI-q/view
+
 # Bij de aankoop van zakken calletjes krijg je 20% korting vanaf 6 stuks.
 # Een zak kost 24 euro. De functie prijs(n) rekent uit
 # welke prijs je moet betalen indien je n zakken koopt.
 
 # Zoek de fout in de volgende code:
 def prijs(n):
-    if n > 6:
+    if n >= 6:
         return 24 * n * 0.80
     else:
         return 24 * n
