@@ -13,5 +13,6 @@
 # Zet hier je code
 
 # gebruik een for loop om de getallen 1 tot en met 5 te tonen
-...
+for i in range(1, 6):
+    print(i)
 print("Goodbye!")
