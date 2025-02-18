@@ -22,8 +22,19 @@ def schaar_steen_papier_helper(jij, tegenspeler):
 
     # Zet hier je code
     # Als jij wint, geef de keuze van de tegenspeler terug
-    ...
+    if jij == "schaar" and tegenspeler == "papier":
+        return "papier"
 
     # Als jij verliest, geef de keuze terug die niet gespeeld werd
-    ...
+    if jij == "schaar" and tegenspeler == "steen":
+        return "steen"
+    if jij == "steen" and tegenspeler == "schaar":
+        return "schaar"
+    if jij == "steen" and tegenspeler == "papier":
+        return "schaar"
+    if jij == "papier" and tegenspeler == "steen":
+        return "steen"
+    if jij == "papier" and tegenspeler == "schaar":
+        return "schaar"
+    return "papier"
 
