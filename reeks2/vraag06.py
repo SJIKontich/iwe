@@ -14,5 +14,5 @@ som = 0
 
 for value in values:
     som += value
-    
+
 print(som)
