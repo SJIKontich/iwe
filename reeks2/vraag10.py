@@ -6,7 +6,9 @@
 values = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 
 # Zet hier je code
-som = ...
-for ... in ...:
-    ...
+som = 0
+
+for i in range(len(values)):
+    som = som + values[i]
+    
 print(som)
