@@ -8,6 +8,6 @@
 # Zet hier je code
 def product(getallen):
     product = ...
-    for ... in ...:
+    for value in ...:
         ...
     return product
