@@ -8,4 +8,5 @@ if current_branch != "mijn-oplossingen":
 
 # Commands to update the student's branch with the latest changes from the main branch
 os.system("git config pull.rebase false")
+os.system("git fetch")
 os.system("git pull origin main") # doet ineens merge
