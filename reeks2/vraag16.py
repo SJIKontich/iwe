@@ -12,6 +12,6 @@
 # Zet hier je code
 def vectorpuntproduct(v1, v2):
     product = []
-    for i in ...:
-        product.append(...)
+    # for ... in ...:
+    #     product.append(...)
     return product

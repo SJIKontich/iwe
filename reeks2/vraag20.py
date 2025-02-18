@@ -11,6 +11,6 @@
 # Zet hier je code
 def initialiseer(n):
     lijst = []
-    for i in ...:
-        ...
+    # for ... in ...:
+    #     ...
     return lijst

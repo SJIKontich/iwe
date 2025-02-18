@@ -14,6 +14,6 @@
 # Zet hier je code
 def scalairproduct(v1, v2):
     som = 0
-    for i in ...:
-        som = ...
+    # for ... in ...:
+    #     som = ...
     return som
