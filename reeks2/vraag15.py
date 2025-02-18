@@ -13,6 +13,7 @@
 # Zet hier je code
 def vectorsom(v1, v2):
     som = []
-    for i in ...:
-        som.append(...)
+    for i in range(len(v1)):
+        som.append(v1[i] + v2[i])
+
     return som
