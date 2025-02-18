@@ -10,5 +10,5 @@ som = 0
 
 for i in range(len(values)):
     som = som + values[i]
-    
+
 print(som)
