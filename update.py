@@ -10,19 +10,22 @@ if os.popen("git status --porcelain").read().strip():
 # Fetch alle remote branches
 os.system("git fetch --all")
 
-# Lijst met branches die exact moeten overeenkomen met de remote versie
+# Lijst van branches die we willen updaten (geen main)
 branches = ["oplossing", "niveau1", "niveau2", "niveau3"]
 
+# Doorloop alle branches en werk ze bij
 for branch in branches:
     # Check of de branch al lokaal bestaat
     local_branches = os.popen("git branch").read()
 
     if branch not in local_branches:
         # Maak de branch lokaal en link deze aan de remote versie
-        os.system(f"git branch --track {branch} origin/{branch}")
-
+        os.system(f"git checkout -b {branch} origin/{branch}")
+    else:
+        # Als de branch al bestaat, wissel naar de juiste branch
+        os.system(f"git checkout {branch}")
+    
     # Forceer update zonder merge-conflicten
-    os.system(f"git checkout {branch}")
     os.system(f"git reset --hard origin/{branch}")
 
 # Terug naar de originele branch (mijn-oplossingen)
