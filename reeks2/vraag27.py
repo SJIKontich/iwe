@@ -15,7 +15,7 @@
 def schaar_steen_papier_helper(jij, tegenspeler):
     # de variabele jij en tegenspeler is een van "schaar", "steen" of "papier"
 
-    # Zet hier je code (Verwijder de pass)
-    pass
+    # Zet hier je code
+    ...
 
 

@@ -13,5 +13,5 @@
 from random import randint
 
 def voeg_2_toe(lijst):
-    # Zet hier je code, je mag de pass hieronder verwijderen
-    pass
+    # Zet hier je code
+    ...
