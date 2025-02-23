@@ -5,7 +5,7 @@ current_branch = os.popen("git branch --show-current").read().strip()
 
 # **Wijzigingen tijdelijk opslaan als er niet-gecommitete wijzigingen zijn**
 if os.popen("git status --porcelain").read().strip():
-    os.system("git stash push -m 'Tijdelijke wijzigingen'")
+    os.system('git stash push -m "Tijdelijke wijzigingen"')
 
 # Fetch alle remote branches
 os.system("git fetch --all")
