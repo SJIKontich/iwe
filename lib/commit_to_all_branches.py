@@ -30,4 +30,4 @@ def update_file_in_all_branches(file_to_update):
     os.system(f"git checkout {current_branch}")
 
 # Example usage
-update_file_in_all_branches("update.py")
+# update_file_in_all_branches("toon_mijn_oplossingen.py")
