@@ -3,10 +3,12 @@ import subprocess
 
 # Wissel naar de 'oplossing' branch
 try:
-    subprocess.run(["git", "checkout", "main"])
-except Exception as e:
+    subprocess.run(["git", "checkout", "main"], check=True)
+except subprocess.CalledProcessError as e:
     print("Er liep iets mis bij het wisselen naar jouw code.", e)
 else:
+    print("doe niets voorlopig")
+    exit()
     # Zet de wijzigingen van de leerling terug als er iets was gestasht
     if os.popen("git stash list").read().strip():
         subprocess.run(["git", "stash", "apply"])
