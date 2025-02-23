@@ -3,7 +3,7 @@ import os
 # Haal de huidige branch op
 current_branch = os.popen("git branch --show-current").read().strip()
 
-# **Wijzigingen tijdelijk opslaan als er niet-gecommitete wijzigingen zijn**
+# Wijzigingen tijdelijk opslaan als er niet-gecommitete wijzigingen zijn
 if os.popen("git status --porcelain").read().strip():
     os.system('git stash push -m "Tijdelijke wijzigingen"')
 
@@ -28,20 +28,16 @@ for branch in branches:
     # Forceer update zonder merge-conflicten
     os.system(f"git reset --hard origin/{branch}")
 
-# Terug naar de originele branch (mijn-oplossingen)
-# Check of de branch 'mijn-oplossingen' al bestaat
-if "mijn-oplossingen" not in os.popen("git branch").read():
-    os.system("git checkout -b mijn-oplossingen")
-else:
-    os.system("git checkout mijn-oplossingen")
+# Terug naar de originele branch
+os.system(f"git checkout {current_branch}")
 
-# **Haal de nieuwste versie van update.py uit main en vervang de huidige**
-os.system("git checkout origin/main -- update.py")
+# Haal de nieuwste versie van main op
+os.system("git pull origin main")
 
-# **Commit de update.py wijziging zonder andere bestanden aan te raken**
-os.system("git add update.py")
-os.system('git commit -m "Update update.py vanuit main" || echo "Geen wijzigingen in update.py om te committen."')
-
-# **Zet de wijzigingen van de leerling terug als er iets was gestasht**
+# Zet de wijzigingen van de leerling terug als er iets was gestasht
 if os.popen("git stash list").read().strip():
-    os.system("git stash pop")
+    os.system("git stash apply")
+    if os.popen("git status --porcelain").read().strip():
+        print("Er zijn conflicten opgetreden bij het toepassen van de stash. Los deze handmatig op.")
+    else:
+        os.system("git stash drop")
