@@ -42,9 +42,6 @@ os.system("git checkout origin/main -- update.py")
 os.system("git add update.py")
 os.system('git commit -m "Update update.py vanuit main" || echo "Geen wijzigingen in update.py om te committen."')
 
-# **(Optioneel) Push de update naar de remote repo als leerlingen dat mogen**
-# os.system("git push origin mijn-oplossingen")
-
 # **Zet de wijzigingen van de leerling terug als er iets was gestasht**
 if os.popen("git stash list").read().strip():
     os.system("git stash pop")
