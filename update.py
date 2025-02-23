@@ -38,6 +38,9 @@ os.system("git pull origin main")
 if os.popen("git stash list").read().strip():
     os.system("git stash apply")
     if os.popen("git status --porcelain").read().strip():
-        print("Er zijn conflicten opgetreden bij het toepassen van de stash. Los deze handmatig op.")
+        print("Er zijn conflicten opgetreden bij het toepassen van de stash. De gestashte versie wordt teruggezet.")
+        os.system("git checkout stash@{0} -- .")
+        os.system("git add .")
+        os.system('git commit -m "Conflicten opgelost door gestashte versie terug te zetten"')
     else:
         os.system("git stash drop")
