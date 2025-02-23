@@ -19,4 +19,5 @@ def integraal(f, a, b, n):
         som = som + f(x)
         # x neemt de waarde aan van het volgende deelinterval
         x = x + dx
+        # bla
     return dx * som
