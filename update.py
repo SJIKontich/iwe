@@ -24,12 +24,15 @@ for branch in branches:
     else:
         # Als de branch al bestaat, wissel naar de juiste branch
         os.system(f"git checkout {branch}")
-    
+
     # Forceer update zonder merge-conflicten
     os.system(f"git reset --hard origin/{branch}")
 
 # Terug naar de originele branch (mijn-oplossingen)
-if current_branch != "mijn-oplossingen":
+# Check of de branch 'mijn-oplossingen' al bestaat
+if "mijn-oplossingen" not in os.popen("git branch").read():
+    os.system("git checkout -b mijn-oplossingen")
+else:
     os.system("git checkout mijn-oplossingen")
 
 # **Haal de nieuwste versie van update.py uit main en vervang de huidige**
