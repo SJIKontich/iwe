@@ -18,16 +18,21 @@ Vanaf hier hebben de oefeningen een hintniveau:
 
 --> toets
 
-# reeks5: IO
+# reeks5: matrices
 
-# reeks6: datastructuren
+# reeks6: I/O
+
+- inlezen en wegschrijven van een getal
+- inlezen en wegschrijven van een lijst
+- inlezen en wegschrijven van een matrix
+
+# reeks7: datastructuren
 
 - niet gesorteerde lijst en zoeken en inlezen en wegschrijven
 - gesorteerde lijst en zoeken
 - binaire zoekboom en zoeken + best en worst case + in-order, pre-order, post-order
 
-# reeks7: nested loops
-
+# reeks 8: algoritmiek
 
 --> toets
 
