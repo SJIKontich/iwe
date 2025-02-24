@@ -11,3 +11,5 @@
 from reeks5.vraag01 import nulvector
 
 # Zet hier je code
+def nulmatrix(): # vul hier de parameters aan
+    ...

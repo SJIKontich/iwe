@@ -4,7 +4,7 @@ from lib.utils import *
 
 try:
     from reeks5 import vraag02
-except (SyntaxError, IndentationError) as e:
+except (SyntaxError, IndentationError, ImportError) as e:
     pytest.exit("Er staat een fout in de code")
 
 

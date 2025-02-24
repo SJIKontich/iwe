@@ -9,3 +9,5 @@
 # 3
 
 # Zet hier je code
+def aantalkolommen(): # vul hier de parameters aan
+    ...

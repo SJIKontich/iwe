@@ -9,3 +9,5 @@
 # 2
 
 # Zet hier je code
+def aantalrijen(): # vul hier de parameters aan
+    ...
