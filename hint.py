@@ -53,13 +53,13 @@ def main():
     try:
         reeks = int(input("Voor welke reeks? (nummer, bv. 1): ").strip())
         vraag = int(input("Voor welke vraag? (nummer, bv. 2): ").strip())
-        niveau_keuze = int(input("Welk hintniveau? (1 = niveau1, 2 = niveau2, 3 = niveau3, 4 = oplossingen): ").strip())
+        niveau_keuze = int(input("Welk hintniveau? (1 = niveau1, 2 = niveau2, 3 = niveau3, 4 = oplossing): ").strip())
     except ValueError:
         print("Ongeldige invoer. Gebruik alleen nummers.")
         sys.exit(1)
 
     # Map de invoer naar de juiste branchnaam
-    niveau_mapping = {1: "niveau1", 2: "niveau2", 3: "niveau3", 4: "oplossingen"}
+    niveau_mapping = {1: "niveau1", 2: "niveau2", 3: "niveau3", 4: "oplossing"}
     niveau = niveau_mapping.get(niveau_keuze)
 
     if niveau is None:
