@@ -3,6 +3,10 @@ import subprocess
 
 # Wissel naar de 'oplossing' branch
 try:
+    # commit eventuele wijzigingen van de leerlingen in de branch oplossing
+    subprocess.run(["git", "add", "."])
+    subprocess.run(["git", "commit", "-m", "Leerling wijzigingen"])
+    # wissel terug naar de branch main
     subprocess.run(["git", "checkout", "main"], check=True)
 except subprocess.CalledProcessError as e:
     print("Er liep iets mis bij het wisselen naar jouw code.", e)
