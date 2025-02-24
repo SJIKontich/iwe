@@ -8,5 +8,5 @@ except (SyntaxError, IndentationError) as e:
     pytest.exit("Er staat een fout in de code")
 
 
-def test_vraag05():
-    check_exact_match(vraag04, "aantalrijen", ([[1, 2, 3], [4, 5, 6]],), 2)
+def test_vraag04():
+    check_exact_match(vraag04, "lees_regels", ("tekst.txt",), ["dit is een versleutelde boodschap met een ceasar cipher van 3:","nl krx ydq sxbqkr"])

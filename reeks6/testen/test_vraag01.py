@@ -9,4 +9,4 @@ except (SyntaxError, IndentationError) as e:
 
 
 def test_vraag01():
-    check_exact_match(vraag01, "nulvector", (3,), [0, 0, 0])
+    check_exact_match(vraag01, "lees_regel", ("tekst.txt",), "dit is een versleutelde boodschap met een ceasar cipher van 3:\n")

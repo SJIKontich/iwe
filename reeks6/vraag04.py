@@ -1,11 +1,5 @@
 
-# Matrices: aantal rijen
-
-# Schrijf een functie aantalrijen(matrix) die het aantalrijen van m teruggeeft.
-
-# Voorbeeld:
-
-# >>> aantalrijen([[1, 2, 3], [4, 5, 6]])
-# 2
+# Schrijf een functie lees_regels(bestandsnaam) die meerdere regels uit het bestand leest
+# en teruggeeft als lijst van strings.
 
 # Zet hier je code

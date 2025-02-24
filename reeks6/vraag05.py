@@ -1,11 +1,11 @@
 
-# Matrices: aantal kolommen
+# Schrijf een functie lees_getal(bestandsnaam) die een getal leest
+# en teruggeeft als integer en niet als string.
 
-# Schrijf een functie aantalkolommen(matrix) die het aantal kolommen van matrix teruggeeft.
+# Je maakt er een integer van door er de int functie op toe te passen.
 
 # Voorbeeld:
-
-# >>> aantalkolommen([[1, 2, 3], [4, 5, 6]])
-# 3
+#   getal_als_string = '123'
+#   getal_als_int = int(getal_als_string) # dit heeft nu de waarde 123 en niet de string '123'
 
 # Zet hier je code

@@ -1,6 +1,5 @@
 
-# Nulvector maken
-
-# Schrijf een functie nulvector(n) om vector (een list) terug te geven met n elementen die allemaal 0 zijn.
+# Schrijf een functie lees_regel(bestandsnaam) die de eerste regel uit het bestand met naam bestandsnam leest
+# en teruggeeft als string
 
 # Zet hier je code

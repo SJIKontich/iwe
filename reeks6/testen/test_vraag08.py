@@ -3,10 +3,10 @@ import pytest
 from lib.utils import *
 
 try:
-    from reeks6 import vraag03
+    from reeks6 import vraag08
 except (SyntaxError, IndentationError) as e:
     pytest.exit("Er staat een fout in de code")
 
 
-def test_vraag03():
-    check_exact_match(vraag03, "lees_cijfertekst", ("tekst.txt",), "nl krx ydq sxbqkr")
+def test_vraag08():
+    check_exact_match(vraag08, "lees_matrix", ("matrix.txt",), [[1, 2, 3], [4, 5, 6]])

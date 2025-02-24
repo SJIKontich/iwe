@@ -9,4 +9,4 @@ except (SyntaxError, IndentationError) as e:
 
 
 def test_vraag07():
-    check_exact_match(vraag07, "product", ([[1,2],[3,4]], [[5,6],[7,8]]), [[19,22],[43,50]])
+    check_exact_match(vraag07, "lees_getallen", ["getallen2.txt"], [1, 2, 3])
