@@ -3,7 +3,7 @@ import pytest
 from lib.utils import *
 
 try:
-    from reeks5 import vraag06
+    from reeks6 import vraag06
 except (SyntaxError, IndentationError) as e:
     pytest.exit("Er staat een fout in de code")
 
