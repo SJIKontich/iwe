@@ -12,9 +12,9 @@
 # Formule:
 # m[i][j] = m1[i][0] * m2[0][j] + m1[i][1] * m2[1][j] + ... + m1[i][k] * m2[k][j]
 
-from reeks8.vraag02 import nulmatrix
-from reeks8.vraag04 import aantalrijen
-from reeks8.vraag05 import aantalkolommen
+from reeks5.vraag02 import nulmatrix
+from reeks5.vraag04 import aantalrijen
+from reeks5.vraag05 import aantalkolommen
 
 
 # Zet hier je code

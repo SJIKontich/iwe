@@ -9,8 +9,8 @@
 # >>> som([[1, 2], [3, 4]], [[5, 6], [7, 8]])
 # [[6, 8], [10, 12]]
 
-from reeks8.vraag02 import nulmatrix
-from reeks8.vraag04 import aantalrijen
-from reeks8.vraag05 import aantalkolommen
+from reeks5.vraag02 import nulmatrix
+from reeks5.vraag04 import aantalrijen
+from reeks5.vraag05 import aantalkolommen
 
 # Zet hier je code

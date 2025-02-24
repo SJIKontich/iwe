@@ -9,7 +9,7 @@
 # >>> eenheidsmatrix(3)
 # [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
 
-from reeks8.vraag02 import nulmatrix
+from reeks5.vraag02 import nulmatrix
 
 
 # Zet hier je code
