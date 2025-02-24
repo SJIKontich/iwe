@@ -2,6 +2,7 @@
 import subprocess
 import os
 import sys
+from datetime import datetime
 
 
 def haal_hint_op(reeks, vraag, niveau):
@@ -28,7 +29,10 @@ def maak_backup(bestand_pad, reeks, vraag, niveau):
     """Maakt een unieke backup van het bestand in een aparte map binnen de reeks."""
     backup_map = f"reeks{reeks}/backups"
     os.makedirs(backup_map, exist_ok=True)
-    backup_pad = os.path.join(backup_map, f"vraag{vraag:02d}_niveau{niveau}.py")
+
+    # Voeg een timestamp toe aan de backup bestandsnaam
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    backup_pad = os.path.join(backup_map, f"vraag{vraag:02d}_{niveau}_{timestamp}.py")
 
     if os.path.exists(bestand_pad):
         os.rename(bestand_pad, backup_pad)
